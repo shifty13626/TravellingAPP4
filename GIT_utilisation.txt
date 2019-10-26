@@ -1,9 +1,0 @@
-- Tous code ou correction doit faire l'objet d'une branche (qui sera mergé par la suite), cela evite les conflits
-
-- Pour créer une branche, partir de la branche source et la nommer feature/[rapide resumé de la chose en question].
-
-- Faire des commits clairs !
-
-- push la branche et attendre le merge ou le faire soi-même si on est sur de ce qu'on fait.
-
-Good luck

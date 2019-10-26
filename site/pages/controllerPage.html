@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+        <link rel = "stylesheet" type = "text/css" href = "../stylePage.css" />
+    <title>Travelling Project</title>
+</head>
+<body>
+    <h1>Travelling Project APP4</h1>
+    <h2>Application developped by studen of Polytech Paris Sud</h2>
+</br>
+</br>
+    <p>Speed mouve of travelling camera :</p>
+    <input id="slider" type="range" min="1" max="10" value="50" class="slider">
+</br>
+</br>
+    <p>Direction of mouvement :</p>
+    <label id="arrowBack"><--</label>
+    <label id="stopMouve">STOP</label>
+    <label id="arrowFront">--></label>
+</br>
+</br>
+    <!-- Button mouve -->
+    <p>Control button</p>
+    <button id="mouveBack"><--</button>
+    <button id="mouveFront">--></button>
+
+    <p>To control the travelling wagon, you can use key left and right.</br>
+         To stop it use Space key.</p>
+</br>
+</br>
+    <button><a href="../">Return to supervision page</a></button>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="../scripts/controller/eventsFunctionsController.js"></script>
+    <script src="../scripts/controller/listenerController.js"></script>
+</body>
+</html>

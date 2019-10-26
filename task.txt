@@ -1,0 +1,3 @@
+- gerer la vitesse de déplacement
+- un utilisateur a le controle en même temps
+- voir pour flux video avec petite camera

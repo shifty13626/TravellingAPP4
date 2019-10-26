@@ -1,0 +1,379 @@
+a user connected======================================
+Sat Oct 26 2019 17:35:08 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 17:35:08 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+a user connected
+Send page index.html
+a user connected
+front
+stop
+back
+stop
+back
+stop
+front
+stop
+back
+stop
+front
+stop
+front
+stop
+back
+stop
+front
+stop
+back
+stop
+front
+stop
+front
+stop
+back
+stop
+front
+stop
+back
+stop
+front
+stop
+front
+stop
+stop
+back
+stop
+front
+stop
+back
+stop
+front
+stop
+back
+stop
+stop
+stop
+stop
+stop
+stop
+stop
+back
+stop
+front
+stop
+back
+stop
+front
+stop
+back
+stop
+stop
+stop
+======================================
+Sat Oct 26 2019 18:22:55 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 18:22:55 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+a user connected
+Send page index.html
+a user connected
+stop
+back
+stop
+back
+stop
+back
+stop
+back
+stop
+back
+back
+stop
+back
+stop
+back
+stop
+stop
+back
+stop
+back
+stop
+back
+stop
+back
+stop
+======================================
+Sat Oct 26 2019 18:23:32 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 18:23:32 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+a user connected
+Send page index.html
+a user connected
+stop
+back
+mouveBack function start
+back
+mouveBack function start
+stop
+back
+mouveBack function start
+stop
+======================================
+Sat Oct 26 2019 18:26:13 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 18:26:13 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+a user connected
+Send page index.html
+a user connected
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+stop
+mouveStop function start
+front
+mouveFront function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+======================================
+Sat Oct 26 2019 18:26:51 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 18:26:51 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+a user connected
+Speed mouve set to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+Speed mouve set to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+Speed mouve set to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+======================================
+Sat Oct 26 2019 18:33:36 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 18:33:36 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+a user connected
+Send page index.html
+a user connected
+Speed mouve set to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+a user connected
+a user connected
+======================================
+Sat Oct 26 2019 20:17:25 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 20:17:25 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+a user connected
+Send page index.html
+Send page index.html
+Send page index.html
+Send page index.html
+Send page index.html
+Send page index.html
+Send page index.html
+======================================
+Sat Oct 26 2019 20:21:33 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 20:21:33 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+Send page index.html
+Send page index.html
+======================================
+Sat Oct 26 2019 20:23:11 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 20:23:11 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+Send page index.html
+Send page controller.html
+Send page controller.html
+a user connected
+Send page controller.html
+Send page controller.html
+Send page controller.html
+======================================
+Sat Oct 26 2019 20:25:59 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 20:25:59 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+Send page controller.html
+a user connected
+Send page controller.html
+a user connected
+Send page controller.html
+a user connected
+Send page controller.html
+======================================
+Sat Oct 26 2019 20:33:14 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 20:33:14 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+Send page controller.html
+Send page controller.html
+a user connected
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Speed mouve set to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+Send page index.html
+======================================
+Sat Oct 26 2019 20:36:18 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 20:36:18 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+Send page index.html
+======================================
+Sat Oct 26 2019 20:37:15 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+======================================
+Sat Oct 26 2019 20:37:15 GMT+0200 (GMT+02:00)
+======================================
+Server started on port 8080...
+Send page index.html
+Send page controller.html
+a user connected
+Send page index.html
+Send page controller.html
+a user connected
+a user connected
+Send page controller.html
+a user connected
+a user connected
+Send page controller.html
+a user connected
+Send page index.html

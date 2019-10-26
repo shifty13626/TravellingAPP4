@@ -1,0 +1,8 @@
+h1 {
+    size: 5%;
+    color: blue;
+}
+
+#arrowBack, #stopMouve, #arrowFront {
+    visibility: hidden;
+}
