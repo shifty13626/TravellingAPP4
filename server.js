@@ -46,6 +46,10 @@ io.on('connection', function(socket){
     socket.on('disconnect', function(){
         console.log('user disconnected');
     });
+    // default stop 
+    io.emit('stop');
+    // display by default mid speed value
+    io.emit('changeSpeed', 5);
 });
 
 io.on('connection', function(socket){
@@ -63,6 +67,10 @@ io.on('connection', function(socket){
         io.emit('stop');
         log.writeLine(msg)
         mouveManager.mouveStop();
+        io.emit('changeSpeed', 5);
+    });
+    socket.on('changeSpeed', function() {
+        
     });
     socket.on('setSpeed', function(msg){
         //io.emit('stop');
