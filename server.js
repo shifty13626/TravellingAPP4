@@ -19,10 +19,11 @@ app.get('/', function(req, res){
 app.get('/pages/controllerPage.html', function(req, res){
     if (!controllerOnline)
     {
+        controllerOnline = true; 
         log.writeLine("Send page controller.html");
-        log.writeLine("Controller online");
+        log.writeLine("Controller online : controllerOnline = " +controllerOnline);
         res.sendFile(__dirname + '/site/pages/controllerPage.html');
-        controllerOnline = true;       
+              
     }
     else    // pirate page
     {
@@ -84,9 +85,10 @@ io.on('connection', function(socket){
         io.emit('changeSpeed', 5);
     });
     socket.on("exitController", function() {
-        log.writeLine("Controller exited");
-        io.emit("controllerDisconnected", true);
         controllerOnline = false;
+        log.writeLine("Controller exited : controllerOnline = " +controllerOnline);
+        io.emit("controllerDisconnected", true);
+        
     });
 });
 

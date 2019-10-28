@@ -1326,3 +1326,512 @@ user disconnected
 Send page index.html
 a user connected
 Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:15:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:15:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:21:12 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:21:12 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:25:21 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:25:21 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:27:31 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:27:31 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:30:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:30:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+##### PIRATE try open controller by URL ######
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:30:48 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:30:48 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:39:05 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:39:05 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:39:24 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:39:24 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:40:28 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:40:28 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:45:06 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:45:06 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Mon Oct 28 2019 19:45:52 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:45:52 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+user disconnected
+user disconnected

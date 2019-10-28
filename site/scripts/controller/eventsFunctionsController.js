@@ -24,10 +24,10 @@ function stop(e){
 
 function exitController(e){
     console.log("Exit controller");
-    return "You will leave the controller page, are you sure ? ";
     e.preventDefault();
     socket.emit("exitController");
-    return false;
+    return "You will leave the controller page, are you sure ? ";
+    //return false;
 }
 
 function pressKeyMouve(e){
