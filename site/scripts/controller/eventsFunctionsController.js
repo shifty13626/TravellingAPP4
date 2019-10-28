@@ -22,6 +22,14 @@ function stop(e){
     return false;
 };
 
+function exitController(e){
+    console.log("Exit controller");
+    return "You will leave the controller page, are you sure ? ";
+    e.preventDefault();
+    socket.emit("exitController");
+    return false;
+}
+
 function pressKeyMouve(e){
     if (e.keyCode == 37)
     {
@@ -45,19 +53,3 @@ function sendSpeed(e) {
     return false;
 }
 
-// listener socket
-socket.on('mouveBack', function(msg){
-    $('#arrowBack').css("visibility", "visible");
-    $('#stopMouve').css("visibility", "hidden");
-    $('#arrowFront').css("visibility", "hidden");
-});
-socket.on('mouveFront', function(msg){
-    $('#arrowBack').css("visibility", "hidden");
-    $('#stopMouve').css("visibility", "hidden");
-    $('#arrowFront').css("visibility", "visible");
-});
-socket.on('stop', function(msg){
-    $('#arrowBack').css("visibility", "hidden");
-    $('#stopMouve').css("visibility", "visible");
-    $('#arrowFront').css("visibility", "hidden");
-});
