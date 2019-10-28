@@ -677,3 +677,652 @@ Send page index.html
 a user connected
 Send page controller.html
 a user connected
+======================================
+Sun Oct 27 2019 09:31:55 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 09:31:55 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+Send page controller.html
+a user connected
+Send page index.html
+a user connected
+a user connected
+a user connected
+a user connected
+a user connected
+======================================
+Sun Oct 27 2019 09:59:20 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 09:59:20 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+a user connected
+user disconnected
+Send page index.html
+a user connected
+a user connected
+user disconnected
+Send page index.html
+a user connected
+a user connected
+user disconnected
+user disconnected
+user disconnected
+======================================
+Sun Oct 27 2019 18:43:05 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 18:43:05 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Exit page : transport close
+Send page index.html
+a user connected
+user disconnected
+Exit page : transport close
+Send page index.html
+a user connected
+user disconnected
+Exit page : transport close
+Send page index.html
+a user connected
+user disconnected
+Exit page : transport close
+Send page controller.html
+a user connected
+user disconnected
+Exit page : transport close
+======================================
+Sun Oct 27 2019 19:01:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:01:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+a user connected
+user disconnected
+a user connected
+user disconnected
+a user connected
+user disconnected
+a user connected
+user disconnected
+Send page index.html
+a user connected
+======================================
+Sun Oct 27 2019 19:04:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:04:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+======================================
+Sun Oct 27 2019 19:07:30 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:07:30 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+======================================
+Sun Oct 27 2019 19:08:13 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:08:13 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+a user connected
+======================================
+Sun Oct 27 2019 19:09:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:09:08 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+a user connected
+======================================
+Sun Oct 27 2019 19:10:32 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:10:32 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+a user connected
+======================================
+Sun Oct 27 2019 19:13:44 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:13:44 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+a user connected
+user disconnected
+a user connected
+======================================
+Sun Oct 27 2019 19:15:14 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:15:14 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+======================================
+Sun Oct 27 2019 19:15:38 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:15:38 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+======================================
+Sun Oct 27 2019 19:16:12 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:16:12 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+user disconnected
+a user connected
+======================================
+Sun Oct 27 2019 19:16:56 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:16:56 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+======================================
+Sun Oct 27 2019 19:17:30 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:17:30 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+======================================
+Sun Oct 27 2019 19:17:57 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:17:57 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+Controller exited
+user disconnected
+Send page controller.html
+a user connected
+Send page index.html
+a user connected
+user disconnected
+a user connected
+user disconnected
+Send page index.html
+a user connected
+Controller exited
+Controller exited
+user disconnected
+user disconnected
+Send page controller.html
+a user connected
+Controller exited
+Controller exited
+user disconnected
+======================================
+Sun Oct 27 2019 19:19:47 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 19:19:47 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+a user connected
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited
+user disconnected
+======================================
+Sun Oct 27 2019 21:32:21 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 21:32:21 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+======================================
+Sun Oct 27 2019 21:33:51 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Sun Oct 27 2019 21:33:51 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Controller exited
+user disconnected
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Controller exited
+user disconnected
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Controller exited
+user disconnected
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+user disconnected
+======================================
+Mon Oct 28 2019 18:48:12 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 18:48:12 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+Send initial state of controller
+======================================
+Mon Oct 28 2019 18:51:54 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 18:51:54 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller
+======================================
+Mon Oct 28 2019 18:52:15 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 18:52:15 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+##### PIRATE try open controller by URL ######
+a user connected
+Send initial state of controller
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller
+Controller exited
+user disconnected
+a user connected
+Send initial state of controller
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+Controller exited
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller
+Controller exited
+user disconnected
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+##### PIRATE try open controller by URL ######
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+##### PIRATE try open controller by URL ######
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+##### PIRATE try open controller by URL ######
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller
+======================================
+Mon Oct 28 2019 19:06:40 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Mon Oct 28 2019 19:06:40 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited
+user disconnected
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller, actual state, controller online : true
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
