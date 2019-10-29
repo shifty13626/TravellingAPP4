@@ -90,6 +90,11 @@ io.on('connection', function(socket){
         io.emit("controllerDisconnected", true);
         
     });
+    socket.on("setSpeed", function (valueSpeed) {
+        log.writeLine("speed change to : " +valueSpeed);
+        mouveManager.setSpeed(valueSpeed);
+        io.emit("changeSpeed", valueSpeed);
+    });
 });
 
 // broadcast sender message by socket
@@ -104,6 +109,8 @@ http.listen(portNumber, function(){
     log.initSession(portNumber);
 });
 
+
+// method to send initial state of connection for controller
 function sendInitialControllerState() {
     log.writeLine("Send initial state of controller, actual state, controller online : " +controllerOnline);
     if (controllerOnline)

@@ -7,7 +7,12 @@ $(function () {
     $('body').keyup(pressKeyMouve);
     
     // event speed mouve
-    $('#slider').change(sendSpeed);
+    $(document).on('input change', '#slider', function() {
+        console.log("Send new value speed : " +$(this).val() );
+        socket.emit('setSpeed', $(this).val());
+        console.log("New value sended");
+        $("#speed").html("Speed value : " + $(this).val());
+    });
 
     // windows close
     window.onbeforeunload = exitController;

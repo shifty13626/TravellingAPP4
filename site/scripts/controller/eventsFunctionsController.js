@@ -45,10 +45,12 @@ function pressKeyMouve(e){
         stop(e);
 };
 
-function sendSpeed(e) {
-    var speed = $('#slider').val;
+function sendSpeed(slider) {
+    console.log("sendSpeed function");
+    //var speed = $('#slider').val();
+    var speed = slider.val();
     console.log("Send speed " +speed + " to server.");
-    e.preventDefault(); // prevents page reloading
+    //e.preventDefault(); // prevents page reloading
     socket.emit('setSpeed', speed);
     return false;
 }

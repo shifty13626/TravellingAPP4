@@ -1835,3 +1835,780 @@ Send initial state of controller, actual state, controller online : false
 user disconnected
 user disconnected
 user disconnected
+======================================
+Tue Oct 29 2019 18:25:18 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 18:25:18 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Tue Oct 29 2019 18:42:17 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 18:42:17 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Tue Oct 29 2019 19:01:36 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:01:36 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Speed mouve set to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : false
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Speed mouve set to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+======================================
+Tue Oct 29 2019 19:08:50 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:08:50 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+speed change to : function(){
+    // prevent double callbacks
+    if (sent) return;
+    var args = Array.prototype.slice.call(arguments);
+    debug('sending ack %j', args);
+
+    self.packet({
+      id: id,
+      type: hasBin(args) ? parser.BINARY_ACK : parser.ACK,
+      data: args
+    });
+
+    sent = true;
+  }
+======================================
+Tue Oct 29 2019 19:10:57 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:10:57 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : [object Object]
+speed change to : [object Object]
+speed change to : [object Object]
+======================================
+Tue Oct 29 2019 19:11:39 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:11:39 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : [object Object]
+speed change to : [object Object]
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+##### PIRATE try open controller by URL ######
+Send page index.html
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Tue Oct 29 2019 19:15:18 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:15:18 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Tue Oct 29 2019 19:15:44 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:15:44 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : null
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : null
+front
+mouveFront function start
+stop
+mouveStop function start
+back
+mouveBack function start
+stop
+mouveStop function start
+front
+mouveFront function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 
+back
+mouveBack function start
+stop
+mouveStop function start
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+======================================
+Tue Oct 29 2019 19:22:16 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:22:16 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 8
+Speed mouve set to : 8
+speed change to : 9
+Speed mouve set to : 9
+speed change to : 10
+Speed mouve set to : 10
+speed change to : 10
+Speed mouve set to : 10
+speed change to : 9
+Speed mouve set to : 9
+speed change to : 8
+Speed mouve set to : 8
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 2
+Speed mouve set to : 2
+speed change to : 1
+Speed mouve set to : 1
+speed change to : 1
+Speed mouve set to : 1
+speed change to : 2
+Speed mouve set to : 2
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 4
+Speed mouve set to : 4
+a user connected
+Send initial state of controller, actual state, controller online : true
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 3
+Speed mouve set to : 3
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+======================================
+Tue Oct 29 2019 19:23:47 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Tue Oct 29 2019 19:23:47 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+a user connected
+Send initial state of controller, actual state, controller online : false
+a user connected
+Send initial state of controller, actual state, controller online : false
+Send page index.html
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : false
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 8
+Speed mouve set to : 8
+speed change to : 8
+Speed mouve set to : 8
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 2
+Speed mouve set to : 2
+speed change to : 2
+Speed mouve set to : 2
+user disconnected
+a user connected
+Send initial state of controller, actual state, controller online : true
+user disconnected
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 2
+Speed mouve set to : 2
+speed change to : 2
+Speed mouve set to : 2
+Controller exited : controllerOnline = false
+user disconnected
+Send page controller.html
+Controller online : controllerOnline = true
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 4
+Speed mouve set to : 4
+a user connected
+Send initial state of controller, actual state, controller online : true
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 2
+Speed mouve set to : 2
+speed change to : 2
+Speed mouve set to : 2
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 4
+Speed mouve set to : 4
+speed change to : 5
+Speed mouve set to : 5
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 7
+Speed mouve set to : 7
+speed change to : 8
+Speed mouve set to : 8
+speed change to : 8
+Speed mouve set to : 8
+speed change to : 9
+Speed mouve set to : 9
+speed change to : 9
+Speed mouve set to : 9
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 6
+Speed mouve set to : 6
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 3
+Speed mouve set to : 3
+speed change to : 9
+Speed mouve set to : 9
+speed change to : 9
+Speed mouve set to : 9
+user disconnected
