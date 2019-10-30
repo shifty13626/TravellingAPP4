@@ -1,3 +1,2 @@
-- gerer la vitesse de déplacement
-- un utilisateur a le controle en même temps
+- interface admin pour quitter tout les controllers
 - voir pour flux video avec petite camera
