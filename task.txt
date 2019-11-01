@@ -1,2 +1,4 @@
+- fichier de conf
+- timout controller
 - interface admin pour quitter tout les controllers
 - voir pour flux video avec petite camera

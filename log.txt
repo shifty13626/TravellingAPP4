@@ -2620,3 +2620,129 @@ Server started on port 8080...
 Wed Oct 30 2019 18:41:57 GMT+0100 (GMT+01:00)
 ======================================
 Server started on port 8080...
+Thu Oct 31 2019 22:31:00 GMT+0100 (GMT+01:00)======================================
+Thu Oct 31 2019 22:31:00 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Thu Oct 31 2019 22:31:00 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Thu Oct 31 2019 22:31:42 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Thu Oct 31 2019 22:31:54 GMT+0100 (GMT+01:00)Send page index.html
+Thu Oct 31 2019 22:31:54 GMT+0100 (GMT+01:00)a user connected
+Thu Oct 31 2019 22:31:54 GMT+0100 (GMT+01:00)Send initial state of controller, actual state, controller online : false
+Thu Oct 31 2019 22:31:56 GMT+0100 (GMT+01:00)user disconnected
+Thu Oct 31 2019 22:31:56 GMT+0100 (GMT+01:00)Send page controller.html
+Thu Oct 31 2019 22:31:56 GMT+0100 (GMT+01:00)Controller online : controllerOnline = true
+Thu Oct 31 2019 22:31:56 GMT+0100 (GMT+01:00)a user connected
+Thu Oct 31 2019 22:31:56 GMT+0100 (GMT+01:00)Send initial state of controller, actual state, controller online : true
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)back
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveBack function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)stop
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveStop function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)back
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveBack function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)stop
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveStop function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)front
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveFront function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)stop
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveStop function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)back
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveBack function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)stop
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveStop function start
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)front
+Thu Oct 31 2019 22:31:57 GMT+0100 (GMT+01:00)mouveFront function start
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)stop
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)mouveStop function start
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)back
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)mouveBack function start
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)stop
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)mouveStop function start
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)front
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)mouveFront function start
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)stop
+Thu Oct 31 2019 22:31:58 GMT+0100 (GMT+01:00)mouveStop function start
+======================================
+Thu Oct 31 2019 22:32:39 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Thu Oct 31 2019 22:32:42 GMT+0100 (GMT+01:00) || a user connected
+Thu Oct 31 2019 22:32:42 GMT+0100 (GMT+01:00) || Send initial state of controller, actual state, controller online : false
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:44 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:45 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || front
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || mouveFront function start
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || mouveStop function start
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || back
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || mouveBack function start
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || stop
+Thu Oct 31 2019 22:32:46 GMT+0100 (GMT+01:00) || mouveStop function start
+======================================
+Fri Nov 01 2019 14:26:56 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+======================================
+Fri Nov 01 2019 14:27:02 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...

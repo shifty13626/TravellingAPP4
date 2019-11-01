@@ -2,8 +2,9 @@ var fs = require('fs');
 
 module.exports = {
     writeLine : function (line){
-        console.log(line);
-        writeOnFileLog(line);
+        var date = new Date();
+        console.log(date.toString() + " || " + line);
+        writeOnFileLog(date.toString() + " || " + line);
     },
     initSession : function(portNumber){
         var date = new Date();
@@ -11,7 +12,7 @@ module.exports = {
         + date.toString() +"\n"
         +"======================================" +"\n"
         +"Server started on port " +portNumber +"...";
-        this.writeLine(message);
+        console.log(message);
         writeOnFileLog(message);
 
     }
