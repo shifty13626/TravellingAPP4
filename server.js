@@ -3,10 +3,15 @@ var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 var log = require("./serverTools/log.js");
 var mouveManager = require("./serverTools/mouveManager.js");
+var configManager = require("./serverTools/configManager.js");
+var path = require("path");
 
 // global parameters
 var portNumber = 8080;
 var controllerOnline = false;
+
+var config = configManager.LoadConfig(path.join(__dirname , "config.xml"));
+//log.writeLine("config log path : " +config.pathLogFile);
 
 // file getters
 // main page html

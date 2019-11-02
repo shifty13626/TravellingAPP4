@@ -19,5 +19,6 @@ module.exports = {
 }
 
 function writeOnFileLog(line) {
-    fs.appendFileSync('./log.txt', line + "\n");
+    fd = fs.openSync('./log.txt', 'a');
+  	fs.appendFileSync(fd, line + "\n", 'utf8');
 }

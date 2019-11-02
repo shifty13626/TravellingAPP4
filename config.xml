@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>

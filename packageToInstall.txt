@@ -1,0 +1,2 @@
+ActiveXObject --> axo
+XMLHttpRequest --> xmlhttprequest

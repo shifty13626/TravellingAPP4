@@ -2746,3 +2746,405 @@ Server started on port 8080...
 Fri Nov 01 2019 14:27:02 GMT+0100 (GMT+01:00)
 ======================================
 Server started on port 8080...
+Fri Nov 01 2019 21:44:15 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4/config.xml
+Fri Nov 01 2019 21:44:39 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4/config.xml
+Sat Nov 02 2019 10:36:02 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4/config.xml
+Sat Nov 02 2019 10:36:23 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4/config.xml
+Sat Nov 02 2019 11:05:34 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4/config.xml
+Sat Nov 02 2019 11:05:58 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4config.xml
+Sat Nov 02 2019 11:06:39 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:09:39 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:10:41 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:11:20 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:11:42 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:12:16 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:43:22 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:43:22 GMT+0100 (GMT+01:00) || undefined
+Sat Nov 02 2019 11:45:18 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:45:56 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:46:10 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+======================================
+Sat Nov 02 2019 11:46:10 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 11:46:10 GMT+0100 (GMT+01:00) || <?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:47:30 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:47:42 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:47:42 GMT+0100 (GMT+01:00) || Content file config : 
+
+======================================
+Sat Nov 02 2019 11:47:42 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 11:50:45 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:50:45 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+======================================
+Sat Nov 02 2019 11:50:45 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 11:51:58 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:51:58 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:53:23 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:53:23 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:54:46 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:54:46 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:55:37 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:55:38 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:55:38 GMT+0100 (GMT+01:00) || null
+======================================
+Sat Nov 02 2019 11:55:38 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 11:56:21 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:56:21 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:57:02 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:57:02 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:57:39 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:57:39 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:58:05 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:58:05 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:58:53 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:58:53 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 11:59:31 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 11:59:31 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 12:02:10 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:02:10 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 12:05:54 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:05:54 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 12:23:40 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:24:48 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:25:22 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:25:42 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:25:42 GMT+0100 (GMT+01:00) || Content xml file : 
+======================================
+Sat Nov 02 2019 12:25:42 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 12:26:47 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:31:51 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:33:16 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:33:16 GMT+0100 (GMT+01:00) || Content xml file : 
+======================================
+Sat Nov 02 2019 12:33:16 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 12:33:52 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:38:36 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:38:36 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 12:39:59 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:39:59 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 12:41:46 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:41:46 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 12:42:03 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 12:42:03 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 13:30:50 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 13:30:50 GMT+0100 (GMT+01:00) || Content file config : 
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 13:31:04 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 13:31:04 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 13:32:44 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 13:32:44 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 13:34:42 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 13:34:42 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 14:14:36 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 14:14:36 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 14:17:25 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 14:17:25 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 14:55:39 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 14:56:55 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 14:57:10 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:00:38 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:04:37 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:49:55 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:49:55 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+======================================
+Sat Nov 02 2019 15:49:55 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 15:50:58 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:50:58 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 15:51:14 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:51:14 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+======================================
+Sat Nov 02 2019 15:51:14 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 15:51:37 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:51:37 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 15:55:41 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:55:41 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+======================================
+Sat Nov 02 2019 15:55:41 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 15:56:01 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:56:01 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+======================================
+Sat Nov 02 2019 15:56:01 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 15:56:25 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 15:56:25 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+======================================
+Sat Nov 02 2019 15:56:25 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 16:00:23 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 16:00:23 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 16:00:23 GMT+0100 (GMT+01:00) || Path log file : ./TravellingProject.log
+Sat Nov 02 2019 16:00:23 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Sat Nov 02 2019 16:00:23 GMT+0100 (GMT+01:00) || Timout controller : 5
+Sat Nov 02 2019 16:00:39 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 16:00:39 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 16:00:39 GMT+0100 (GMT+01:00) || Path log file : ./TravellingProject.log
+Sat Nov 02 2019 16:00:39 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Sat Nov 02 2019 16:00:39 GMT+0100 (GMT+01:00) || Timout controller : 5
+Sat Nov 02 2019 16:00:39 GMT+0100 (GMT+01:00) || config log path : ./TravellingProject.log
+======================================
+Sat Nov 02 2019 16:00:39 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sat Nov 02 2019 16:00:57 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sat Nov 02 2019 16:00:57 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <pathLogFile>./TravellingProject.log</pathLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sat Nov 02 2019 16:00:57 GMT+0100 (GMT+01:00) || Path log file : ./TravellingProject.log
+Sat Nov 02 2019 16:00:57 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Sat Nov 02 2019 16:00:57 GMT+0100 (GMT+01:00) || Timout controller : 5
+======================================
+Sat Nov 02 2019 16:00:57 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
