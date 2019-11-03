@@ -9,8 +9,8 @@ module.exports = {
 }
 
 let Config = class {
-    constructor(pathLogFile, InitialSpeedLevel, TimeoutController) {
-      this.pathLogFile = pathLogFile;
+    constructor(portServer, InitialSpeedLevel, TimeoutController) {
+      this.portServer = portServer;
       this.InitialSpeedLevel = InitialSpeedLevel;
       this.TimeoutController = TimeoutController;
     }
@@ -30,13 +30,13 @@ function LoadConfigExecution(pathConfigFile) {
 
     console.log(xmlDoc);
 
-    var pathLog = xmlDoc.Config.pathLogFile.toString();
+    var portServer = xmlDoc.Config.portServer.toString();
     var initialSpeedLevel = xmlDoc.Config.InitialSpeedLevel.toString();
     var timeoutController = xmlDoc.Config.TimeoutController.toString();
 
-    log.writeLine("Path log file : " +pathLog);
+    log.writeLine("port server : " +portServer);
     log.writeLine("Initial speed value : " +initialSpeedLevel);
     log.writeLine("Timout controller : " +timeoutController);
 
-    return new Config(pathLog, initialSpeedLevel, timeoutController);
+    return new Config(portServer, initialSpeedLevel, timeoutController);
 }

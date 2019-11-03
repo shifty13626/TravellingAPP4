@@ -1,0 +1,54 @@
+Sun Nov 03 2019 17:37:55 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sun Nov 03 2019 17:37:55 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <nameLogFile>TravellingProject.log</nameLogFile>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sun Nov 03 2019 17:37:55 GMT+0100 (GMT+01:00) || port server : 8080
+Sun Nov 03 2019 17:37:55 GMT+0100 (GMT+01:00) || Name log file : TravellingProject.log
+Sun Nov 03 2019 17:37:55 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Sun Nov 03 2019 17:37:55 GMT+0100 (GMT+01:00) || Timout controller : 5
+======================================
+Sun Nov 03 2019 17:37:55 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sun Nov 03 2019 17:38:42 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sun Nov 03 2019 17:38:42 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sun Nov 03 2019 17:38:42 GMT+0100 (GMT+01:00) || port server : 8080
+Sun Nov 03 2019 17:38:42 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Sun Nov 03 2019 17:38:42 GMT+0100 (GMT+01:00) || Timout controller : 5
+======================================
+Sun Nov 03 2019 17:38:42 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sun Nov 03 2019 17:38:46 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Sun Nov 03 2019 17:38:46 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+</Config>
+Sun Nov 03 2019 17:38:46 GMT+0100 (GMT+01:00) || port server : 8080
+Sun Nov 03 2019 17:38:46 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Sun Nov 03 2019 17:38:46 GMT+0100 (GMT+01:00) || Timout controller : 5
+======================================
+Sun Nov 03 2019 17:38:46 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Sun Nov 03 2019 17:38:50 GMT+0100 (GMT+01:00) || Send page index.html
+Sun Nov 03 2019 17:38:50 GMT+0100 (GMT+01:00) || a user connected
+Sun Nov 03 2019 17:38:50 GMT+0100 (GMT+01:00) || Send initial state of controller, actual state, controller online : false
+Sun Nov 03 2019 17:38:51 GMT+0100 (GMT+01:00) || user disconnected

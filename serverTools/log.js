@@ -1,4 +1,7 @@
 var fs = require('fs');
+var path = require("path");
+
+var logFileName = "";
 
 module.exports = {
     writeLine : function (line){
@@ -18,7 +21,9 @@ module.exports = {
     }
 }
 
+
 function writeOnFileLog(line) {
-    fd = fs.openSync('./log.txt', 'a');
-  	fs.appendFileSync(fd, line + "\n", 'utf8');
+    fd = fs.openSync(path.join(path.dirname(__dirname), "TravellingProject.log"), 'a');
+      fs.appendFileSync(fd, line + "\n", 'utf8');
+      //'./log.txt'
 }

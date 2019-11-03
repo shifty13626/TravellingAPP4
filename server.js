@@ -7,11 +7,11 @@ var configManager = require("./serverTools/configManager.js");
 var path = require("path");
 
 // global parameters
-var portNumber = 8080;
+//var portNumber = 8080;
 var controllerOnline = false;
 
-var config = configManager.LoadConfig(path.join(__dirname , "config.xml"));
-//log.writeLine("config log path : " +config.pathLogFile);
+// load config
+var config = configManager.LoadConfig(path.join(__dirname, "config.xml"));
 
 // file getters
 // main page html
@@ -110,8 +110,8 @@ io.on('connection', function(socket){
 });
 
 // open server
-http.listen(portNumber, function(){
-    log.initSession(portNumber);
+http.listen(config.portServer, function(){
+    log.initSession(config.portServer);
 });
 
 
