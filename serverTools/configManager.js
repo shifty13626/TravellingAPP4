@@ -9,10 +9,12 @@ module.exports = {
 }
 
 let Config = class {
-    constructor(portServer, InitialSpeedLevel, TimeoutController) {
+    constructor(portServer, InitialSpeedLevel, TimeoutController, pinFront, pinBack) {
       this.portServer = portServer;
       this.InitialSpeedLevel = InitialSpeedLevel;
       this.TimeoutController = TimeoutController;
+      this.pinFront = pinFront;
+      this.pinBack = pinBack;
     }
 };
 
@@ -33,10 +35,15 @@ function LoadConfigExecution(pathConfigFile) {
     var portServer = xmlDoc.Config.portServer.toString();
     var initialSpeedLevel = xmlDoc.Config.InitialSpeedLevel.toString();
     var timeoutController = xmlDoc.Config.TimeoutController.toString();
+    var gpioPinFront = xmlDoc.Config.pinMouveFront.toString();
+    var gpioPinBack = xmlDoc.Config.pinMouveBack.toString();
 
     log.writeLine("port server : " +portServer);
     log.writeLine("Initial speed value : " +initialSpeedLevel);
     log.writeLine("Timout controller : " +timeoutController);
+    log.writeLine("GPIO pin front mouvement : " +gpioPinFront);
+    log.writeLine("GPIO pin back mouvement : " +gpioPinBack);
 
-    return new Config(portServer, initialSpeedLevel, timeoutController);
+    return new Config(portServer, initialSpeedLevel,
+        timeoutController, gpioPinFront, gpioPinBack);
 }

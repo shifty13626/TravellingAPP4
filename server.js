@@ -6,12 +6,16 @@ var mouveManager = require("./serverTools/mouveManager.js");
 var configManager = require("./serverTools/configManager.js");
 var path = require("path");
 
+
 // global parameters
 //var portNumber = 8080;
 var controllerOnline = false;
 
 // load config
 var config = configManager.LoadConfig(path.join(__dirname, "config.xml"));
+
+// load GPIO
+mouveManager.loadGPIO(config);
 
 // file getters
 // main page html
