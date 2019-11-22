@@ -4,4 +4,6 @@
     <InitialSpeedLevel>3</InitialSpeedLevel>
     <!-- timout controller (int) minutes -->
     <TimeoutController>5</TimeoutController>
+    <pinMouveFront>17</pinMouveFront>
+    <pinMouveBack>18</pinMouveBack>
 </Config>
