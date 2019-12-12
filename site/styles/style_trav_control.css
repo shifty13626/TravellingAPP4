@@ -1,0 +1,48 @@
+.travelling_controls
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.travelling_control
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex: 1;
+}
+
+.direction_control
+{
+    flex: 1.5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.direction_control > button
+{
+    margin: 0vh 0px 0vh 0px;
+    width: 45%;
+    border: none;
+}
+
+.speed_control
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.speed_control > input[type=range]
+{
+    margin: 0;
+    height: 3vh;
+}
+
+.speed_control > input[type=number]
+{
+    background-color: transparent;
+    border: none;
+    font-size: 5vh;
+}
