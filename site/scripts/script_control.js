@@ -24,8 +24,12 @@ var travButtons = [
 ];
 
 //Link range and number inputs for speed
-$nudMoveSpeed.oninput = function(){ $rngMoveSpeed.value = $nudMoveSpeed.value; };
-$rngMoveSpeed.oninput = function(){ $nudMoveSpeed.value = $rngMoveSpeed.value; };
+$nudMoveSpeed.oninput = function(){ $rngMoveSpeed.value = $nudMoveSpeed.value;
+socket.emit('setSpeed', $nudMoveSpeed.value);
+};
+$rngMoveSpeed.oninput = function(){ $nudMoveSpeed.value = $rngMoveSpeed.value; 
+socket.emit('setSpeed', $rngMoveSpeed.value);
+};
 
 $nudRotateSpeed.oninput = function(){ $rngRotateSpeed.value = $nudRotateSpeed.value; };
 $rngRotateSpeed.oninput = function(){ $nudRotateSpeed.value = $rngRotateSpeed.value; };
