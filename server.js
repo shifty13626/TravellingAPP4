@@ -41,17 +41,50 @@ app.get('/pages/controllerPage.html', function(req, res){
     }
 });
 // style
-app.get('/stylePage.css', function(req, res) {
-    res.sendFile(__dirname + "/" + "/site/styles/stylePage.css");
+app.get('/styles/style_page.css', function(req, res) {
+    res.sendFile(__dirname + "/" + "/site/styles/style_page.css");
+});
+app.get('/styles/style_trav_control.css', function(req, res) {
+    res.sendFile(__dirname + "/" + "/site/styles/style_trav_control.css");
+});
+app.get('/styles/style_trav_simulation.css', function(req, res) {
+    res.sendFile(__dirname + "/" + "/site/styles/style_trav_simulation.css");
+});
+app.get('/styles/style_custom_range.css', function(req, res) {
+    res.sendFile(__dirname + "/" + "/site/styles/style_custom_range.css");
+});
+app.get('/styles/style_index.css', function(req, res) {
+    res.sendFile(__dirname + "/" + "/site/styles/style_index.css");
 });
 
 // scripts js
 // supervision
+/*
 app.get('/scripts/supervision/supervisionFunctions.js', function(req, res) {
     res.sendFile(__dirname + "/" + "site/scripts/supervision/supervisionFunctions.js");
 });
 app.get('/scripts/supervision/listenerSupervision.js', function(req, res) {
     res.sendFile(__dirname + "/" + "site/scripts/supervision/listenerSupervision.js");
+});
+app.get('/scripts/supervision/videoManager.js', function(req, res) {
+    res.sendFile(__dirname + "/" + "site/scripts/supervision/videoManager.js");
+});
+*/
+app.get('/scripts/script_control.js', function(req, res) {
+    res.sendFile(__dirname + "/" + "site/scripts/script_control.js");
+});
+app.get('/scripts/script_trav_simulation.js', function(req, res) {
+    res.sendFile(__dirname + "/" + "site/scripts/script_trav_simulation.js");
+});
+// Images
+app.get('/img/icon_move_left.svg', function(req, res) {
+    res.sendFile(__dirname + "/" + "site/img/icon_move_left.svg");
+});
+app.get('/img/icon_rotate_right.svg', function(req, res) {
+    res.sendFile(__dirname + "/" + "site/img/icon_rotate_right.svg");
+});
+app.get('/img/camera_icon.ico', function(req, res) {
+    res.sendFile(__dirname + "/" + "site/img/camera_icon.ico");
 });
 // controller
 app.get('/scripts/controller/eventsFunctionsController.js', function(req, res) {
@@ -60,6 +93,7 @@ app.get('/scripts/controller/eventsFunctionsController.js', function(req, res) {
 app.get('/scripts/controller/listenerController.js', function(req, res) {
     res.sendFile(__dirname + "/" + "site/scripts/controller/listenerController.js");
 });
+
 
 // to log connection and deconnection of an user 
 io.on('connection', function(socket){

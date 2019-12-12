@@ -4,6 +4,8 @@
     return false;
 };*/
 
+var socket = io();
+
 var $btnMoveLeft = document.getElementById("btn_move_left"),
     $btnMoveRight = document.getElementById("btn_move_right"),
     $btnRotateLeft = document.getElementById("btn_rotate_left"),
@@ -29,14 +31,14 @@ $nudRotateSpeed.oninput = function(){ $rngRotateSpeed.value = $nudRotateSpeed.va
 $rngRotateSpeed.oninput = function(){ $nudRotateSpeed.value = $rngRotateSpeed.value; };
 
 //On press
-document.body.onmouseup = function(){endPress(); }
+document.body.onmouseup = function(){ console.log("MOUSE UP"); endPress(); }
 // document.body.ontouchend = function(){endPress(); }
 var $pressedControl;
 
 travButtons.forEach(function(item, index, array){
     item.ontouchstart = function(event){press(item, event)};
-    item.ontouchend = function(event){endPress();};
-    item.onmousedown = function(event){press(item, event)};
+    item.ontouchend = function(event){ endPress();};
+    item.onmousedown = function(event){ console.log("MOUSE DOWN"); press(item, event)};
 });
 var pressTimeout;
 function press(control, e) {
@@ -44,11 +46,21 @@ function press(control, e) {
     $pressedControl = control;
     pressTimeout = setInterval(function(){
         console.log(control.id + " pressed");
+        if(control.id === "btn_move_left") {
+            e.preventDefault(); // prevents page reloading
+            socket.emit('mouveBack', "back");
+        }
+        else if(control.id === "btn_move_right"){
+            e.preventDefault(); // prevents page reloading
+            socket.emit('mouveFront', "front");
+        }
     }, 100);
     return false;
 }
 function endPress() {
+    //e.preventDefault(); // prevents page reloading
     clearInterval(pressTimeout);
+    socket.emit('stop', "stop");
     return false;
 }
 

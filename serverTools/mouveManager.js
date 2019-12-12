@@ -1,5 +1,5 @@
 var log = require("./log.js");
-const Gpio = require('onoff').Gpio;
+//const Gpio = require('onoff').Gpio;
 
 var gpioFront;
 var gpioBack
@@ -29,8 +29,8 @@ module.exports = {
     },
     loadGPIO : function(config) {
         log.writeLine("Set GPIO config");
-        gpioFront = new Gpio(config.pinFront, 'out');
-        gpioBack = new Gpio(config.pinBack, 'out');
+        //gpioFront = new Gpio(config.pinFront, 'out');
+        //gpioBack = new Gpio(config.pinBack, 'out');
     }
 }
 
@@ -48,6 +48,7 @@ function getSpeedValue() {
 // mouvement region
 function mouveFrontExecution() {
     log.writeLine("mouveFront function start");
+   /*
     // Back -> 0
     log.writeLine("Value gpio1 (back) : " +gpioBack.readSync());
     if (gpioBack.readSync() === 1)
@@ -62,10 +63,12 @@ function mouveFrontExecution() {
         log.writeLine("Set gpio0 to value 1");
         gpioFront.writeSync(1);
     }
+    */
 }
 
 function mouveBackExecution(){
     log.writeLine("mouveBack function start");
+    /*
     // Front -> 0
     log.writeLine("Value gpio0 (front) : " +gpioFront.readSync());
     if (gpioFront.readSync() === 1)
@@ -80,10 +83,12 @@ function mouveBackExecution(){
         log.writeLine("Set gpio1 to value 0");
         gpioBack.writeSync(1);
     }
+    */
 }
 
 function mouveStopExecution() {
     log.writeLine("mouveStop function start");
+    /*
     // Front -> 0
     log.writeLine("Value gpio0 (front) : " +gpioFront.readSync());
     if (gpioFront.readSync() === 1)
@@ -98,4 +103,5 @@ function mouveStopExecution() {
         log.writeLine("Set gpio1 to value 0");
         gpioBack.writeSync(0);
     }
+    */
 }
