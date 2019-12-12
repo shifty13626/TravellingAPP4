@@ -2090,3 +2090,141 @@ Fri Nov 22 2019 19:57:31 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 0
 Fri Nov 22 2019 19:57:31 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
 Fri Nov 22 2019 19:57:34 GMT+0000 (Greenwich Mean Time) || Controller exited : controllerOnline = false
 Fri Nov 22 2019 19:57:35 GMT+0000 (Greenwich Mean Time) || user disconnected
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || Load config of file : /home/pi/TravellingAPP4/config.xml
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+    <pinMouveFront>17</pinMouveFront>
+    <pinMouveBack>18</pinMouveBack>
+</Config>
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || port server : 8080
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || Initial speed value : 3
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || Timout controller : 5
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || GPIO pin front mouvement : 17
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || GPIO pin back mouvement : 18
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time) || Set GPIO config
+======================================
+Thu Dec 12 2019 07:43:43 GMT+0000 (Greenwich Mean Time)
+======================================
+Server started on port 8080...
+Thu Dec 12 2019 07:44:19 GMT+0000 (Greenwich Mean Time) || Send page index.html
+Thu Dec 12 2019 07:44:20 GMT+0000 (Greenwich Mean Time) || a user connected
+Thu Dec 12 2019 07:44:20 GMT+0000 (Greenwich Mean Time) || Send initial state of controller, actual state, controller online : false
+Thu Dec 12 2019 07:44:23 GMT+0000 (Greenwich Mean Time) || Send page controller.html
+Thu Dec 12 2019 07:44:23 GMT+0000 (Greenwich Mean Time) || Controller online : controllerOnline = true
+Thu Dec 12 2019 07:44:23 GMT+0000 (Greenwich Mean Time) || user disconnected
+Thu Dec 12 2019 07:44:24 GMT+0000 (Greenwich Mean Time) || a user connected
+Thu Dec 12 2019 07:44:24 GMT+0000 (Greenwich Mean Time) || Send initial state of controller, actual state, controller online : true
+Thu Dec 12 2019 07:44:25 GMT+0000 (Greenwich Mean Time) || back
+Thu Dec 12 2019 07:44:25 GMT+0000 (Greenwich Mean Time) || mouveBack function start
+Thu Dec 12 2019 07:44:25 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:25 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:25 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 1
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || front
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || mouveFront function start
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 1
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 1
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || front
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || mouveFront function start
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:26 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 1
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 1
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || back
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveBack function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 1
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || front
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveFront function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 1
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 1
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || front
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveFront function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 1
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 1
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || back
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || mouveBack function start
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:27 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 1
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || front
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || mouveFront function start
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 1
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 1
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 0
+Thu Dec 12 2019 07:44:28 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || back
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || mouveBack function start
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 1
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Set gpio1 to value 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || front
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || mouveFront function start
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 1
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || stop
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio0 (front) : 1
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Set gpio0 to value 0
+Thu Dec 12 2019 07:44:29 GMT+0000 (Greenwich Mean Time) || Value gpio1 (back) : 0
+Thu Dec 12 2019 07:44:32 GMT+0000 (Greenwich Mean Time) || Controller exited : controllerOnline = false
+Thu Dec 12 2019 07:44:34 GMT+0000 (Greenwich Mean Time) || user disconnected
+Thu Dec 12 2019 07:44:34 GMT+0000 (Greenwich Mean Time) || Send page index.html
+Thu Dec 12 2019 07:44:35 GMT+0000 (Greenwich Mean Time) || a user connected
+Thu Dec 12 2019 07:44:35 GMT+0000 (Greenwich Mean Time) || Send initial state of controller, actual state, controller online : false
+Thu Dec 12 2019 07:55:35 GMT+0000 (Greenwich Mean Time) || user disconnected
+Thu Dec 12 2019 07:55:36 GMT+0000 (Greenwich Mean Time) || a user connected
+Thu Dec 12 2019 07:55:36 GMT+0000 (Greenwich Mean Time) || Send initial state of controller, actual state, controller online : false
+Thu Dec 12 2019 07:55:37 GMT+0000 (Greenwich Mean Time) || user disconnected
