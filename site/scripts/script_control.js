@@ -35,20 +35,18 @@ $nudRotateSpeed.oninput = function(){ $rngRotateSpeed.value = $nudRotateSpeed.va
 $rngRotateSpeed.oninput = function(){ $nudRotateSpeed.value = $rngRotateSpeed.value; };
 
 //On press
-document.body.onmouseup = function(){ console.log("MOUSE UP"); endPress(); }
-// document.body.ontouchend = function(){endPress(); }
-var $pressedControl;
+document.body.onmouseup = function(){ console.log("MOUSE UP"); endPress(null); }
+document.body.ontouchend = function(){ }
 
 travButtons.forEach(function(item, index, array){
     item.ontouchstart = function(event){press(item, event)};
-    item.ontouchend = function(event){ endPress();};
+    item.ontouchend = function(event){ endPress(item); event.stopPropagation(); };
     item.onmousedown = function(event){ console.log("MOUSE DOWN"); press(item, event)};
 });
-var pressTimeout;
+//var pressTimeout;
 function press(control, e) {
     e.preventDefault();
-    $pressedControl = control;
-    pressTimeout = setInterval(function(){
+    //pressTimeout = setInterval(function(){
         console.log(control.id + " pressed");
         if(control.id === "btn_move_left") {
             e.preventDefault(); // prevents page reloading
@@ -58,13 +56,18 @@ function press(control, e) {
             e.preventDefault(); // prevents page reloading
             socket.emit('mouveFront', "front");
         }
-    }, 100);
+    //}, 100);
     return false;
 }
-function endPress() {
+function endPress(item) {
     //e.preventDefault(); // prevents page reloading
-    clearInterval(pressTimeout);
+    //clearInterval(pressTimeout);
     socket.emit('stop', "stop");
+    if(control != null)
+	{
+		console.log(control.id + " released");
+	}
+	else console.log("STOP");
     return false;
 }
 
