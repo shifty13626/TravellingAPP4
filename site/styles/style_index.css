@@ -11,8 +11,6 @@ body
 
     display: flex;
     flex-direction: column;
-
-    margin-bottom: 3vh;
 }
 
 .trav_simulation
@@ -35,4 +33,9 @@ body
 {
     border-radius: 5vh;
     border: solid grey 0.3vh;
+}
+
+.trav_simulation
+{
+	margin-bottom: 3vh;	
 }
