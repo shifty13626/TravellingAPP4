@@ -5,14 +5,30 @@ var log = require("./serverTools/log.js");
 var mouveManager = require("./serverTools/mouveManager.js");
 var configManager = require("./serverTools/configManager.js");
 var path = require("path");
-
+var CameraStream = require('./serverTools/cameraStream.js');
 
 // global parameters
-//var portNumber = 8080;
 var controllerOnline = false;
 
 // load config
 var config = configManager.LoadConfig(path.join(__dirname, "config.xml"));
+
+// create and conf camera raspistill
+var camera = new CameraStream();
+camera.doStart(config.cameraWidth, config.cameraHeight, config.cameraQuality);
+
+// Send pictures when it come
+var consume = function(buffer) { 
+    res.write("--myboundary\r\n");
+    res.write("Content-Type: image/jpeg\r\n");
+    res.write("Content-Length: " + buffer.length + "\r\n"); 
+    res.write("\r\n");
+    res.write(buffer,'binary');
+    res.write("\r\n");
+}
+
+// try to send pictures
+camera.on('image', consume);
 
 // load GPIO
 mouveManager.loadGPIO(config);
@@ -101,6 +117,7 @@ io.on('connection', function(socket){
     userConnected = true;
     socket.on('disconnect', function(name){
         log.writeLine('user disconnected');
+        camera.removeListener('image', consume);
     });
     // default stop 
     io.emit('stop');

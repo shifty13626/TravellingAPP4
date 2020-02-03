@@ -6,4 +6,7 @@
     <TimeoutController>5</TimeoutController>
     <pinMouveFront>17</pinMouveFront>
     <pinMouveBack>18</pinMouveBack>
+    <cameraWidth>320</cameraWidth>
+    <cameraHeight>240</cameraHeight>
+    <cameraQuality>10</cameraQuality>
 </Config>

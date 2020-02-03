@@ -13961,3 +13961,24 @@ Thu Dec 12 2019 10:56:12 GMT+0000 (Greenwich Mean Time) || speed change to : 57
 Thu Dec 12 2019 10:56:12 GMT+0000 (Greenwich Mean Time) || Speed mouve set to : 57
 Thu Dec 12 2019 10:56:13 GMT+0000 (Greenwich Mean Time) || stop
 Thu Dec 12 2019 10:56:13 GMT+0000 (Greenwich Mean Time) || mouveStop function start
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || Load config of file : /home/pi/TravellingAPP4/config.xml
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+    <pinMouveFront>17</pinMouveFront>
+    <pinMouveBack>18</pinMouveBack>
+</Config>
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || port server : 8080
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || Initial speed value : 3
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || Timout controller : 5
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || GPIO pin front mouvement : 17
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || GPIO pin back mouvement : 18
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time) || Set GPIO config
+======================================
+Thu Dec 12 2019 20:33:38 GMT+0000 (Greenwich Mean Time)
+======================================
+Server started on port 8080...
