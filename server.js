@@ -16,6 +16,8 @@ var config = configManager.LoadConfig(path.join(__dirname, "config.xml"));
 
 // load GPIO
 mouveManager.loadGPIO(config);
+// check device i2c enable
+mouveManager.detectI2c();
 
 // file getters
 // main page html
