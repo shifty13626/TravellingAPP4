@@ -1,10 +1,10 @@
 var log = require("./log.js");
-var i2cManager = require("i2cManager.js");
+var i2cManager = require("./i2cManager.js");
 
 const Gpio = require('onoff').Gpio;
 
 var gpioFront;
-var gpioBack
+var gpioBack;
 
 /*
 const gpioFront = new Gpio(17, 'out');
@@ -51,6 +51,11 @@ function getSpeedValue() {
 // mouvement region
 function mouveFrontExecution() {
     log.writeLine("mouveFront function start");
+    log.writeLine(decimalToHexString(speed));
+
+    i2cManager.sendData(0x01, decimalToHexString(speed));
+    
+
     // Back -> 0
     log.writeLine("Value gpio1 (back) : " +gpioBack.readSync());
     if (gpioBack.readSync() === 1)
@@ -101,4 +106,15 @@ function mouveStopExecution() {
         log.writeLine("Set gpio1 to value 0");
         gpioBack.writeSync(0);
     }
+}
+
+
+function decimalToHexString(number)
+{
+  if (number < 0)
+  {
+    number = 0xFFFFFFFF + number + 1;
+  }
+
+  return number.toString(16).toUpperCase();
 }

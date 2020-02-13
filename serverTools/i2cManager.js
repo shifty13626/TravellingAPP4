@@ -8,7 +8,11 @@ module.exports = {
 	CheckI2cDevice : function() {
 		CheckI2cDevice();
 	},
+	sendData : function(action, params) {
+		sendDataI2c(action, params);
+	}
 }
+
 
 // Detect devices on the I2C Bus
 function CheckI2cDevice () {
@@ -31,25 +35,38 @@ const toCelsius = rawData => {
   }
   return celsius;
 };
- 
-//const wbuf = Buffer.from([rasp]);
-const wbuf = Buffer.from([rasp]);
-const rbuf = Buffer.alloc(2);
 
-for (var i=0; i<wbuf.length; i++)
-{
-	console.log(wbuf[i]);
-	console.log(typeof(wbuf[i]));
-}
 
-function sendData(int)
+function sendDataI2c(action, params)
 {
+	log.writeLine("Send i2c message");
+/*
+	const arr = new Uint16Array(2);
+
+	arr[0] = 1;
+	arr[1] = 50;
+	
+	// Shares memory with `arr`.
+	const wbuf = Buffer.from(arr.buffer);
+*/
+
+	//const wbuf = Buffer.from([rasp]);
+	wbuf = Buffer.from([action, params]);
+	const rbuf = Buffer.alloc(2);
+
+	log.writeLine("Message to send : " +wbuf);
+	log.writeLine("size : " +wbuf.length);
+	for (var i=0; i<wbuf.length; i++)
+	{
+		log.writeLine(wbuf[i]);
+	}
+
 	console.log("Envoi");
 	i2c.openPromisified(1).
 	then(i2c1 => i2c1.i2cWrite(mbed, wbuf.length, wbuf).
-		then(_ => i2c1.i2cRead(mbed, rbuf.length, rbuf)).
-		then(data => console.log(data.buffer.readUInt16BE() & 0x0fff )).
-		then(_ => i2c1.close())
+	  then(_ => i2c1.i2cRead(mbed, rbuf.length, rbuf)).
+	  then(data => console.log(data.buffer.readUInt16BE() & 0x0fff )).
+	  then(_ => i2c1.close())
 	).catch(console.log);
 	console.log("Envoyé");
 }
