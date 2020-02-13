@@ -1,31 +1,7 @@
 var log = require("./log.js");
+var i2cManager = require("i2cManager.js");
+
 const Gpio = require('onoff').Gpio;
-
-const i2c = require('i2c-bus');
- 
-const MCP9808_ADDR = 0x18;
-const TEMP_REG = 0x04;
- 
-const toCelsius = rawData => {
-  rawData = (rawData >> 8) + ((rawData & 0xff) << 8);
-  let celsius = (rawData & 0x0fff) / 16;
-  if (rawData & 0x1000) {
-    celsius -= 256;
-  }
-  return celsius;
-};
- 
-
-
-
-var rasp2c = require('rasp2c');
-/*
-var localAddress = 0x18;
-var mbedAddress = 0x04;
-*/
-
-// set address to the raspberry
-//var wire = new i2c(address, {device: '/dev/i2c-1'}); // point to your i2c address, debug provides REPL interface
 
 var gpioFront;
 var gpioBack
@@ -34,6 +10,7 @@ var gpioBack
 const gpioFront = new Gpio(17, 'out');
 const gpioBack = new Gpio(18, 'out');
 */
+
 var speed = 5;
 
 module.exports = {
@@ -57,34 +34,8 @@ module.exports = {
         log.writeLine("Set GPIO config");
         gpioFront = new Gpio(config.pinFront, 'out');
         gpioBack = new Gpio(config.pinBack, 'out');
-    },
-    detectI2c : function() {
-        CheckI2cDevice();
     }
-
 }
-
-
-// Detect devices on the I2C Bus
-function CheckI2cDevice () {
-    rasp2c.detect(function(err, result) {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log(result);
-    }
-  });
-  testI2c();
-}
-
-function testI2c() {
-    const i2c1 = i2c.openSync(1);
-    const rawData = i2c1.readWordSync(MCP9808_ADDR, TEMP_REG);
-    console.log(toCelsius(rawData));
-    i2c1.closeSync();
-}
-
-
 
 // speed region
 function setSpeedValue(value) {
