@@ -8,7 +8,6 @@ var path = require("path");
 
 
 // global parameters
-//var portNumber = 8080;
 var controllerOnline = false;
 
 // load config
@@ -79,33 +78,41 @@ io.on('connection', function(socket){
 });
 
 io.on('connection', function(socket){
-    socket.on('mouveBack', function(msg){
-        io.emit('mouveBack');
-        log.writeLine(msg);
-        mouveManager.mouveBack();
-    });
-    socket.on('mouveFront', function(msg){
-        io.emit('mouveFront');
-        log.writeLine(msg);
-        mouveManager.mouveFront();
-    });
-    socket.on('stop', function(msg){
-        io.emit('stop');
-        log.writeLine(msg)
-        mouveManager.mouveStop();
-        io.emit('changeSpeed', 5);
-    });
     socket.on("exitController", function() {
         controllerOnline = false;
         log.writeLine("Controller exited : controllerOnline = " +controllerOnline);
         io.emit("controllerDisconnected", true);
         
     });
+
+    socket.on('mouveWagon', function(msg){
+        io.emit('mouveWagon');
+        log.writeLine(msg);
+        mouveManager.mouveWagon(config);
+    });
+    socket.on('brakeWagon', function(msg){
+        io.emit('brakeWagon');
+        log.writeLine(msg);
+        mouveManager.brakeWagon(config);
+    });
+
+    socket.on('stop', function(msg){
+        io.emit('stop');
+        log.writeLine(msg)
+        mouveManager.mouveStop();
+        io.emit('changeSpeed', 5);
+    });
+    
     socket.on("setSpeed", function (valueSpeed) {
-        log.writeLine("speed change to : " +valueSpeed);
-        mouveManager.setSpeed(valueSpeed);
+        log.writeLine("speed wagon change to : " +valueSpeed);
+        mouveManager.setspeedWagon(valueSpeed);
         io.emit("changeSpeed", valueSpeed);
     });
+    socket.on("setSpeedCamera", function (valueSpeed) {
+        log.writeLine("speed camera change to : " +valueSpeed);
+        mouveManager.setSpeedRotationCamera(valueSpeed);
+        io.emit("setSpeedCamera", valueSpeed);
+    })
 });
 
 // broadcast sender message by socket
