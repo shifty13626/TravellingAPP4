@@ -1,19 +1,11 @@
-/* Modified Meyer Reset to smooth out browser differences*/
-/* CSS variables to keep appearance consistent */
 :root {
-    /*variables for font color and other cosmetics*/
-    /*variables for gradient color stops and sizing the sliders*/
-    --accentcolor: rgb(0,128,128);
-    --accentcoloralpha: rgba(0,128,128,0.5);
     --lineheight: 1.3;
     --thumbrotate: -90deg;
-	--thumbsize: 40px;
-    --trackheight: 28px;
-    --trackradius: 6px;
+	--thumbsize: 5.5vh;
+    --trackheight: 0.5vh;
+    --trackradius: 0px;
     --innertrackradius: 4px;
 }
-/*Relative position for rangewrapper is important to provide a positioning context 
-for the thumb and value text. It also provides a background color for the slider track.*/
 .rangewrapper {
   line-height:var(--lineheight);
   border:2px solid var(--maincolor);
@@ -24,10 +16,6 @@ for the thumb and value text. It also provides a background color for the slider
   overflow:visible;
   background-color:rgba(200,200,200,0.02);
 }
-/*The sliderthumb uses an image and it is absolutely position using a calculation. 
-Pointer-events are set to none so it won't block dragging the range input thumb. 
-We will use javascript to be sure the sliderthumb always appears at the same location 
-as the real range input thumb.*/
 .sliderthumb {
 	transform: rotate(var(--thumbrotate));
 	width:var(--thumbsize);
@@ -42,15 +30,16 @@ as the real range input thumb.*/
 	padding:0;
 	pointer-events:none;
 }
-/*The customrange class sets each range input to a low opacity.*/
 .customrange {
 	cursor:pointer;
-	height:100%;
 	width:100%;
 	opacity:1;
 	margin:0px;
 }
-.customrange::-webkit-slider-thumb
-{
+.customrange::-moz-range-thumb {
+	opacity: 0;
+}
+
+.customrange::-webkit-slider-thumb {
 	opacity: 0;
 }
