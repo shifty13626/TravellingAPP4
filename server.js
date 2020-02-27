@@ -15,17 +15,14 @@ var config = configManager.LoadConfig(path.join(__dirname, "config.xml"));
 
 // load GPIO
 mouveManager.loadGPIO(config);
-// check device i2c enable
-//mouveManager.detectI2c();
 
 // file getters
-// main page html
+// pages html
 app.get('/', function(req, res){
     log.writeLine("Send page index.html");
     res.sendFile(__dirname + '/site/index.html');
     io.emit("controllerDisconnected", true);
 });
-// page controler
 app.get('/pages/controllerPage.html', function(req, res){
     if (!controllerOnline)
     {
@@ -41,7 +38,8 @@ app.get('/pages/controllerPage.html', function(req, res){
         res.sendFile(__dirname + '/site/pages/piratePage.html');
     }
 });
-// style
+
+// styles
 app.get('/stylePage.css', function(req, res) {
     res.sendFile(__dirname + "/" + "/site/styles/stylePage.css");
 });

@@ -2,12 +2,14 @@ var log = require("./log.js");
 var fs = require('fs');
 var xml2js = require('xml2js');
 
+// link functions of this file
 module.exports = {
     LoadConfig : function(path) {
         return LoadConfigExecution(path);
     }
 }
 
+// Define class Config
 let Config = class {
     constructor(portServer, InitialSpeedLevel, TimeoutController, lengthRail, lengthStrip, pinFront, pinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
       this.portServer = portServer;
@@ -23,6 +25,7 @@ let Config = class {
     }
 };
 
+// function to load all tag on xml file
 function LoadConfigExecution(pathConfigFile) {
     log.writeLine("Load config of file : " +pathConfigFile);
 
@@ -35,8 +38,10 @@ function LoadConfigExecution(pathConfigFile) {
         xmlDoc = tempXmlDoc;
     })
 
+    // display all tags of the config file
     console.log(xmlDoc);
 
+    // load tag on variables
     var portServer = xmlDoc.Config.portServer.toString();
     var initialSpeedLevel = xmlDoc.Config.InitialSpeedLevel.toString();
     var timeoutController = xmlDoc.Config.TimeoutController.toString();
@@ -48,6 +53,7 @@ function LoadConfigExecution(pathConfigFile) {
     var coeffBrakeWagon = xmlDoc.Config.coeffBrakeWagon.toString();
     var coeffSpeedRotationCamera = xmlDoc.Config.coeffSpeedRotationCamera.toString();
 
+    // log all value loaded
     log.writeLine("port server : " +portServer);
     log.writeLine("Initial speed value : " +initialSpeedLevel);
     log.writeLine("Timout controller : " +timeoutController);
@@ -59,6 +65,7 @@ function LoadConfigExecution(pathConfigFile) {
     log.writeLine("Coeff brake wagon : " +coeffBrakeWagon);
     log.writeLine("Coeff rotation camera : " +coeffSpeedRotationCamera);
 
+    // return object config
     return new Config(portServer, initialSpeedLevel,
         timeoutController, lengthRail, lengthStrip, gpioPinFront, gpioPinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
 }

@@ -1,6 +1,7 @@
 var log = require("./log.js");
 var i2cManager = require("./i2cManager.js");
 
+// global value
 var speedWagon = 5;
 var breake = 5;
 var mouveDirection = 0;
@@ -9,6 +10,7 @@ var distanceStart = 0;
 
 var speedRotationCamera = 5;
 
+// to export all methods of this file to the other
 module.exports = {
     setspeedWagon : function(value) {
         setspeedWagonValue(value);
@@ -99,6 +101,7 @@ function mouveWagonFunction(config) {
     log.writeLine("End of function mouveWagon");
 }
 
+// Loop to detect new strip on the rail to know the possition of the wagon
 function analysePosisitonWagon (config) {
     var ret = i2cManager.sendData(0x07);
         if (ret != colorStrip) {
