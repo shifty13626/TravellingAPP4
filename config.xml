@@ -4,6 +4,9 @@
     <InitialSpeedLevel>3</InitialSpeedLevel>
     <!-- timout controller (int) minutes -->
     <TimeoutController>5</TimeoutController>
+    <!-- Length rail (centimeter) -->
+    <lengthRail></lengthRail>
+    <lengthStrip></lengthStrip>
     <pinMouveFront>17</pinMouveFront>
     <pinMouveBack>18</pinMouveBack>
     <coeffSpeedWagon>1</coeffSpeedWagon>

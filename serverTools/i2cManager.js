@@ -69,6 +69,7 @@ function sendDataI2c(action, params)
 	  then(_ => i2c1.close())
 	).catch(console.log);
 	console.log("Envoyé");
+	return data.buffer.readUInt16BE() & 0x0fff;
 }
 
 function readData()

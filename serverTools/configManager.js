@@ -9,10 +9,12 @@ module.exports = {
 }
 
 let Config = class {
-    constructor(portServer, InitialSpeedLevel, TimeoutController, pinFront, pinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
+    constructor(portServer, InitialSpeedLevel, TimeoutController, lengthRail, lengthStrip, pinFront, pinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
       this.portServer = portServer;
       this.InitialSpeedLevel = InitialSpeedLevel;
       this.TimeoutController = TimeoutController;
+      this.lengthRail = lengthRail;
+      this.lengthStrip = lengthStrip;
       this.pinFront = pinFront;
       this.pinBack = pinBack;
       this.coeffMouveWagon = coeffMouveWagon;
@@ -38,6 +40,8 @@ function LoadConfigExecution(pathConfigFile) {
     var portServer = xmlDoc.Config.portServer.toString();
     var initialSpeedLevel = xmlDoc.Config.InitialSpeedLevel.toString();
     var timeoutController = xmlDoc.Config.TimeoutController.toString();
+    var lengthRail = xmlDoc.Config.lengthRail.toString();
+    var lengthStrip = xmlDoc.config.lengthStrip;toString();
     var gpioPinFront = xmlDoc.Config.pinMouveFront.toString();
     var gpioPinBack = xmlDoc.Config.pinMouveBack.toString();
     var coeffMouveWagon = xmlDoc.Config.coeffSpeedWagon.toString();
@@ -47,6 +51,8 @@ function LoadConfigExecution(pathConfigFile) {
     log.writeLine("port server : " +portServer);
     log.writeLine("Initial speed value : " +initialSpeedLevel);
     log.writeLine("Timout controller : " +timeoutController);
+    log.writeLine("Length rail in centimeter : " +lengthRail);
+    log.writeLine("Length of one strip : " +lengthStrip);
     log.writeLine("GPIO pin front mouvement : " +gpioPinFront);
     log.writeLine("GPIO pin back mouvement : " +gpioPinBack);
     log.writeLine("Coeff speed mouve wagon : " +coeffMouveWagon);
@@ -54,5 +60,5 @@ function LoadConfigExecution(pathConfigFile) {
     log.writeLine("Coeff rotation camera : " +coeffSpeedRotationCamera);
 
     return new Config(portServer, initialSpeedLevel,
-        timeoutController, gpioPinFront, gpioPinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
+        timeoutController, lengthRail, lengthStrip, gpioPinFront, gpioPinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
 }
