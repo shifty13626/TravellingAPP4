@@ -1,54 +1,102 @@
 var log = require("./log.js");
-//const Gpio = require('onoff').Gpio;
+var i2cManager = require("./i2cManager.js");
 
-var gpioFront;
-var gpioBack
+// global value
+var speedWagon = 5;
+var breake = 5;
+var mouveDirection = 0;
+var colorStrip = 0;
+var distanceStart = 0;
 
-/*
-const gpioFront = new Gpio(17, 'out');
-const gpioBack = new Gpio(18, 'out');
-*/
-var speed = 5;
+var speedRotationCamera = 5;
 
+// to export all methods of this file to the other
 module.exports = {
-    setSpeed : function(value) {
-        setSpeedValue(value);
+    setspeedWagon : function(value) {
+        setspeedWagonValue(value);
     },
-    getSpeed : function() {
-        log.writeLine("Speed parameter :" +speed);
-        return speed;
+    getspeedWagon : function() {
+        log.writeLine("speedWagon parameter :" +speedWagon);
+        return speedWagon;
     },
-    mouveBack : function() {
-        mouveBackExecution();
+    setBreake : function (value) {
+        setBreakeFunction(value);
     },
-    mouveFront : function() {
-        mouveFrontExecution();
+    getBreake : function () {
+        log.writeLine("Breake value : " +breake);
+        return breake;
     },
-    mouveStop : function () {
-        mouveStopExecution();
+    setSpeedRotationCamera : function (value) {
+        setSpeedRotationCameraFunction(value);
     },
-    loadGPIO : function(config) {
-        log.writeLine("Set GPIO config");
-        //gpioFront = new Gpio(config.pinFront, 'out');
-        //gpioBack = new Gpio(config.pinBack, 'out');
+    getSpeedRotationCamera : function() {
+        log.writeLine("Rotation camera value : " +speedRotationCamera);
+        return speedRotationCamera;
+    },
+
+    returnToStart : function() {
+        returnToStartFunction();
+    },
+
+    mouveWagon : function(config) {
+        mouveWagonFunction(config);
+    },
+    brakeWagon : function(config) {
+        brakeWagonFunction(config);
+    },
+    changeDirection : function () {
+        changeDirectionFunction();
+    },
+    
+    mouveCamera : function (config) {
+        mouveCameraFunction(config)
+    },
+    changeDirectionCamera : function () {
+        changeDirectionCameraFunction();
     }
 }
 
-// speed region
-function setSpeedValue(value) {
-    speed = value;
-    log.writeLine("Speed mouve set to : " +speed);
+/////////////////////////
+// set value parameter //
+/////////////////////////
+
+function setspeedWagonValue(value) {
+    speedWagon = value;
+    log.writeLine("speedWagon mouve set to : " +speedWagon);
 }
 
-function getSpeedValue() {
-    log.writeLine("Speed parameter :" +speed);
-    return speed;
+function setBreakeFunction(value) {
+    breake = value;
+    log.writeLine("Breake value set to : " +breake);
 }
 
-// mouvement region
-function mouveFrontExecution() {
-    log.writeLine("mouveFront function start");
-   /*
+function setSpeedRotationCameraFunction(value) {
+    speedRotationCamera = value;
+    log.writeLine("Speed rotation camera value set to : " +speedRotationCamera);
+}
+ 
+//////////////////////
+// mouvement region //
+//////////////////////
+
+// fonction pour retourner au debut du rail
+function returnToStartFunction() {
+
+}
+
+// To mouve wagon
+function mouveWagonFunction(config) {
+    log.writeLine("mouveWagon function start");
+    log.writeLine("speedWagon for mouve : " +decimalToHexString(speedWagon) +"%");
+
+    i2cManager.sendData(0x01, decimalToHexString(speedWagon * config.coeffMouveWagon));
+
+    // loop to know the position of the wagon
+    while(true)
+    {
+        log.writeLine("Analyse new possition of wagon ...");
+        analysePosisitonWagon(config);
+    }
     // Back -> 0
     log.writeLine("Value gpio1 (back) : " +gpioBack.readSync());
     if (gpioBack.readSync() === 1)
@@ -56,52 +104,82 @@ function mouveFrontExecution() {
         log.writeLine("Set gpio1 to value 0");
         gpioBack.writeSync(0);
     }
-    // Front -> 1
-    log.writeLine("Value gpio0 (front) : " +gpioFront.readSync());
-    if (gpioFront.readSync() === 0)
-    {
-        log.writeLine("Set gpio0 to value 1");
-        gpioFront.writeSync(1);
-    }
-    */
 }
 
-function mouveBackExecution(){
-    log.writeLine("mouveBack function start");
-    /*
-    // Front -> 0
-    log.writeLine("Value gpio0 (front) : " +gpioFront.readSync());
-    if (gpioFront.readSync() === 1)
-    {
-        log.writeLine("Set gpio0 to value 0");
-        gpioFront.writeSync(0);
-    }
-    // Back -> 1
-    log.writeLine("Value gpio1 (back) : " +gpioBack.readSync());
-    if (gpioBack.readSync() === 0)
-    {
-        log.writeLine("Set gpio1 to value 0");
-        gpioBack.writeSync(1);
-    }
-    */
+// Loop to detect new strip on the rail to know the possition of the wagon
+function analysePosisitonWagon (config) {
+    var ret = i2cManager.sendData(0x07);
+        if (ret != colorStrip) {
+            log.writeLine("New strip distance detected");
+            log.writeLine("Distance between the start point : " +distanceStart +" cm");
+            
+            if (mouveDirection === 0) {
+                distanceStart += config.lengthStrip;
+                changeStripIndex();
+            }
+            else {
+                distanceStart -= config.lengthStrip;
+                changeStripIndex();
+            }
+        }
 }
 
-function mouveStopExecution() {
-    log.writeLine("mouveStop function start");
-    /*
-    // Front -> 0
-    log.writeLine("Value gpio0 (front) : " +gpioFront.readSync());
-    if (gpioFront.readSync() === 1)
-    {
-        log.writeLine("Set gpio0 to value 0");
-        gpioFront.writeSync(0);
-    }
-    // Back -> 0
-    log.writeLine("Value gpio1 (back) : " +gpioBack.readSync());
-    if (gpioBack.readSync() === 1)
-    {
-        log.writeLine("Set gpio1 to value 0");
-        gpioBack.writeSync(0);
-    }
-    */
+function changeStripIndex() {
+    if (colorStrip === 0)
+        colorStrip = 1;
+    else
+        colorStrip = 0;
+}
+
+// To break mouvement of wagon
+function brakeWagonFunction(config) {
+    log.writeLine("mouveWagon function start");
+    log.writeLine("speedWagon for mouve : " +decimalToHexString(speedWagon) +"%");
+
+    i2cManager.sendData(0x03, decimalToHexString(breake * config.coeffBrakeWagon));
+
+    log.writeLine("End of function brakeWagon");
+}
+
+// To change direction for mouvement of wagon
+function changeDirectionFunction() {
+    log.writeLine("changeDirection function start");
+
+    i2cManager.sendData(0x02);
+    if (mouveDirection == 0)
+        mouveDirection = 1;
+    else
+        mouveDirection = 0;
+
+    log.writeLine("End of function changeDirection");
+}
+
+// Mouve rotation of camera
+function mouveCameraFunction(config) {
+    log.writeLine("mouveCamera function start");
+    log.writeLine("speed for rotation camera : " +decimalToHexString(speedRotationCamera * config.coeffSpeedRotationCamera) +"%");
+
+    i2cManager.sendData(0x04, decimalToHexString(speedRotationCamera * config.coeffSpeedRotationCamera));
+
+    log.writeLine("End of function mouveCamera");
+}
+
+// To change direction for camera rotation
+function changeDirectionCameraFunction() {
+    log.writeLine("changeDirectionCamera function start");
+
+    i2cManager.sendData(0x06);
+
+    log.writeLine("End of function changeDirectionCamera");
+}
+
+// To cast decimal to hexa data
+function decimalToHexString(number)
+{
+  if (number < 0)
+  {
+    number = 0xFFFFFFFF + number + 1;
+  }
+
+  return number.toString(16).toUpperCase();
 }

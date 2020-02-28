@@ -8,7 +8,6 @@ var path = require("path");
 
 
 // global parameters
-//var portNumber = 8080;
 var controllerOnline = false;
 
 // load config
@@ -18,13 +17,12 @@ var config = configManager.LoadConfig(path.join(__dirname, "config.xml"));
 mouveManager.loadGPIO(config);
 
 // file getters
-// main page html
+// pages html
 app.get('/', function(req, res){
     log.writeLine("Send page index.html");
     res.sendFile(__dirname + '/site/index.html');
     io.emit("controllerDisconnected", true);
 });
-// page controler
 app.get('/pages/controllerPage.html', function(req, res){
     if (!controllerOnline)
     {
@@ -150,10 +148,15 @@ io.on('connection', function(socket){
         io.emit("controllerDisconnected", true);
     });
     socket.on("setSpeed", function (valueSpeed) {
-        log.writeLine("speed change to : " +valueSpeed);
-        mouveManager.setSpeed(valueSpeed);
+        log.writeLine("speed wagon change to : " +valueSpeed);
+        mouveManager.setspeedWagon(valueSpeed);
         io.emit("changeSpeed", valueSpeed);
     });
+    socket.on("setSpeedCamera", function (valueSpeed) {
+        log.writeLine("speed camera change to : " +valueSpeed);
+        mouveManager.setSpeedRotationCamera(valueSpeed);
+        io.emit("setSpeedCamera", valueSpeed);
+    })
 });
 
 // open server
