@@ -46,7 +46,7 @@ function LoadConfigExecution(pathConfigFile) {
     var initialSpeedLevel = xmlDoc.Config.InitialSpeedLevel.toString();
     var timeoutController = xmlDoc.Config.TimeoutController.toString();
     var lengthRail = xmlDoc.Config.lengthRail.toString();
-    var lengthStrip = xmlDoc.config.lengthStrip;toString();
+    var lengthStrip = xmlDoc.Config.lengthStrip.toString();
     var gpioPinFront = xmlDoc.Config.pinMouveFront.toString();
     var gpioPinBack = xmlDoc.Config.pinMouveBack.toString();
     var coeffMouveWagon = xmlDoc.Config.coeffSpeedWagon.toString();

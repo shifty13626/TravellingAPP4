@@ -14,7 +14,7 @@ var controllerOnline = false;
 var config = configManager.LoadConfig(path.join(__dirname, "config.xml"));
 
 // load GPIO
-mouveManager.loadGPIO(config);
+//mouveManager.loadGPIO(config);
 
 // file getters
 // pages html
@@ -148,9 +148,8 @@ io.on('connection', function(socket){
         io.emit("controllerDisconnected", true);
     });
     socket.on("setSpeed", function (valueSpeed) {
-        log.writeLine("speed wagon change to : " +valueSpeed);
         mouveManager.setspeedWagon(valueSpeed);
-        io.emit("changeSpeed", valueSpeed);
+        io.emit("changeSpeed", mouveManager.getspeedWagon());
     });
     socket.on("setSpeedCamera", function (valueSpeed) {
         log.writeLine("speed camera change to : " +valueSpeed);
@@ -174,33 +173,37 @@ function sendInitialControllerState() {
         io.emit("controllerDisconnected", true);
 }
 
-
 var moveDirection = 0, moveSpeed = 50, moveDistance = 50;
 var rotateDirection = 0, rotateSpeed = 50, rotateAngle = 0;
 
 //TRAVELLING CONTROL
 function setMoveDirection(value) {
+    mouveManager.changeDirection();
 	moveDirection = value;
 	io.emit('MoveDirection', moveDirection);
 }
 function setMoveSpeed(value) {
-	moveSpeed = value;
-	io.emit('MoveSpeed', moveSpeed);
+    mouveManager.setspeedWagon(value);
+	io.emit('MoveSpeed', mouveManager.getspeedWagon());
 }
+
 function setMoveDistance(value) {
 	value = value < 0 ? 0 : value > 100 ? 100 : value;
     if(moveDistance == value) return false;
     moveDistance = value;
 	io.emit('MoveDistance', value);
 }
+
 function setRotateDirection(value) {
 	rotateDirection = value;
 	io.emit('RotateDirection', rotateDirection);
 }
+
 function setRotateSpeed(value) {
-	rotateSpeed = value;
-	io.emit('RotateSpeed', rotateSpeed);
+    mouveManager.setRotateSpeed(value);
+	io.emit('RotateSpeed', mouveManager.getSpeedRotationCamera());
 }
+
 function setRotateAngle(value) {
 	rotateAngle = value;
 	io.emit('RotateAngle', rotateAngle);

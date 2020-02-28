@@ -35,7 +35,6 @@ function setRotateSpeed(value)
 	socket.emit('RotateSpeed', value);
 }
 
-
 //UX CONTROLS
 var $btnMoveBack = document.getElementById("btn_move_back"),
     $btnMoveFront = document.getElementById("btn_move_front"),
@@ -97,6 +96,7 @@ function press(control, e) {
 	}
     return false;
 }
+
 function endPress(control) {
 	if(control != null) {
 		switch(control.id) {
