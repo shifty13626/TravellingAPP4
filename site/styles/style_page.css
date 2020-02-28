@@ -1,0 +1,90 @@
+*
+{
+    outline: 0;
+}
+
+html, head, body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 2vh;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+button
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 6vh;
+    border-radius: 25vh;
+    cursor: pointer;
+}
+
+input[type=range]
+{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    cursor: grabbing;
+    height: 100%;
+    border-radius: 25vh;
+    overflow: hidden;
+}
+
+input[type=range]::-webkit-slider-runnable-track
+{
+    background-color: lightgrey;
+    transition: 1s;
+}
+input[type=range]::-webkit-slider-runnable-track:hover
+{
+    background-color: silver;
+}
+input[type=range]::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    background-color: grey;
+    height: 100%;
+    width: 5vh;
+    border-radius: 25vh;
+}
+
+input[type=range]::-moz-range-track
+{
+    height: 100%;
+    border-radius: 25vh;
+    background-color: lightgrey;
+    transition: 1s;
+}
+input[type=range]::-moz-range-track:hover
+{
+    background-color: silver;
+}
+input[type=range]::-moz-range-thumb
+{
+    -webkit-appearance: none;
+    background-color: grey;
+    height: 100%;
+    width: 5vh;
+    border-radius: 25vh;
+}
+
+input[type=number]
+{
+    text-align: right;
+}
+
+input[type=number]::-webkit-inner-spin-button
+{
+    opacity: 1;
+}

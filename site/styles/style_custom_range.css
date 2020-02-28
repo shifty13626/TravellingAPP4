@@ -1,0 +1,45 @@
+:root {
+    --lineheight: 1.3;
+    --thumbrotate: -90deg;
+	--thumbsize: 5.5vh;
+    --trackheight: 0.5vh;
+    --trackradius: 0px;
+    --innertrackradius: 4px;
+}
+.rangewrapper {
+  line-height:var(--lineheight);
+  border:2px solid var(--maincolor);
+  border-radius:var(--trackradius);
+  padding:0;
+  position:relative;
+  height:var(--trackheight);
+  overflow:visible;
+  background-color:rgba(200,200,200,0.02);
+}
+.sliderthumb {
+	transform: rotate(var(--thumbrotate));
+	width:var(--thumbsize);
+	height:var(--thumbsize);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color:transparent;
+	position:absolute;
+	left:0;
+	top:calc(((var(--thumbsize) - var(--trackheight))/-2) - 1px);
+	border:0 none;
+	padding:0;
+	pointer-events:none;
+}
+.customrange {
+	cursor:pointer;
+	width:100%;
+	opacity:1;
+	margin:0px;
+}
+.customrange::-moz-range-thumb {
+	opacity: 0;
+}
+
+.customrange::-webkit-slider-thumb {
+	opacity: 0;
+}

@@ -1,0 +1,46 @@
+.control_wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    box-sizing: content-box;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trav_controls
+{
+    flex: 3;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.trav_supervision
+{
+    flex: 1.25;
+	display: flex;
+}
+
+.trav_screen
+{
+    border-bottom: solid grey 0.3vh;
+}
+
+.travelling_control, .trav_screen
+{
+    padding: 2vh;
+}
+
+.trav_controls, .trav_supervision
+{
+    border-radius: 5vh;
+    border: solid grey 0.3vh;
+}
+
+.trav_supervision
+{
+    margin-bottom: 3vh;
+}
