@@ -44,8 +44,8 @@ module.exports = {
     brakeWagon : function(config) {
         brakeWagonFunction(config);
     },
-    changeDirection : function () {
-        changeDirectionFunction();
+    changeDirection : function (config) {
+        changeDirectionFunction(config);
     },
     
     mouveCamera : function (config) {
@@ -89,26 +89,22 @@ function mouveWagonFunction(config) {
     log.writeLine("mouveWagon function start");
     log.writeLine("speedWagon for mouve : " +decimalToHexString(speedWagon) +"%");
 
-    i2cManager.sendData(0x01, decimalToHexString(speedWagon * config.coeffMouveWagon));
+    if(config.i2cEnable)
+    {
+        i2cManager.sendData(config, 0x01, decimalToHexString(speedWagon * config.coeffMouveWagon));
 
-    // loop to know the position of the wagon
-    while(true)
-    {
-        log.writeLine("Analyse new possition of wagon ...");
-        analysePosisitonWagon(config);
-    }
-    // Back -> 0
-    log.writeLine("Value gpio1 (back) : " +gpioBack.readSync());
-    if (gpioBack.readSync() === 1)
-    {
-        log.writeLine("Set gpio1 to value 0");
-        gpioBack.writeSync(0);
+        // loop to know the position of the wagon
+        while(true)
+        {
+            log.writeLine("Analyse new possition of wagon ...");
+            analysePosisitonWagon(config);
+        }
     }
 }
 
 // Loop to detect new strip on the rail to know the possition of the wagon
 function analysePosisitonWagon (config) {
-    var ret = i2cManager.sendData(0x07);
+    var ret = i2cManager.sendData(config, 0x07);
         if (ret != colorStrip) {
             log.writeLine("New strip distance detected");
             log.writeLine("Distance between the start point : " +distanceStart +" cm");
@@ -136,16 +132,16 @@ function brakeWagonFunction(config) {
     log.writeLine("mouveWagon function start");
     log.writeLine("speedWagon for mouve : " +decimalToHexString(speedWagon) +"%");
 
-    i2cManager.sendData(0x03, decimalToHexString(breake * config.coeffBrakeWagon));
+    i2cManager.sendData(config, 0x03, decimalToHexString(breake * config.coeffBrakeWagon));
 
     log.writeLine("End of function brakeWagon");
 }
 
 // To change direction for mouvement of wagon
-function changeDirectionFunction() {
+function changeDirectionFunction(config) {
     log.writeLine("changeDirection function start");
 
-    i2cManager.sendData(0x02);
+    i2cManager.sendData(config, 0x02);
     if (mouveDirection == 0)
         mouveDirection = 1;
     else

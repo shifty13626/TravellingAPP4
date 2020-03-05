@@ -178,7 +178,7 @@ var rotateDirection = 0, rotateSpeed = 50, rotateAngle = 0;
 
 //TRAVELLING CONTROL
 function setMoveDirection(value) {
-    mouveManager.changeDirection();
+    mouveManager.changeDirection(config);
 	moveDirection = value;
 	io.emit('MoveDirection', moveDirection);
 }

@@ -624,3 +624,109 @@ Fri Feb 28 2020 12:19:43 GMT+0100 (GMT+01:00) || Send page index.html
 Fri Feb 28 2020 12:19:44 GMT+0100 (GMT+01:00) || a user connected
 Fri Feb 28 2020 12:19:44 GMT+0100 (GMT+01:00) || Send initial state of controller, actual state, controller online : false
 Fri Feb 28 2020 12:19:46 GMT+0100 (GMT+01:00) || changeDirection function start
+Fri Feb 28 2020 13:58:14 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+    <!-- Length rail (centimeter) -->
+    <lengthRail></lengthRail>
+    <lengthStrip></lengthStrip>
+    <pinMouveFront>17</pinMouveFront>
+    <pinMouveBack>18</pinMouveBack>
+    <coeffSpeedWagon>1</coeffSpeedWagon>
+    <coeffBrakeWagon>1</coeffBrakeWagon>
+    <coeffSpeedRotationCamera>1</coeffSpeedRotationCamera>
+</Config>
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || port server : 8080
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Timout controller : 5
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Length rail in centimeter : 
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Length of one strip : 
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || GPIO pin front mouvement : 17
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || GPIO pin back mouvement : 18
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Coeff speed mouve wagon : 1
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Coeff brake wagon : 1
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Coeff rotation camera : 1
+======================================
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || a user connected
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || Send initial state of controller, actual state, controller online : false
+Fri Feb 28 2020 13:58:15 GMT+0100 (GMT+01:00) || changeDirection function start
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <i2cEnable>false</i2cEnable>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+    <!-- Length rail (centimeter) -->
+    <lengthRail></lengthRail>
+    <lengthStrip></lengthStrip>
+    <pinMouveFront>17</pinMouveFront>
+    <pinMouveBack>18</pinMouveBack>
+    <coeffSpeedWagon>1</coeffSpeedWagon>
+    <coeffBrakeWagon>1</coeffBrakeWagon>
+    <coeffSpeedRotationCamera>1</coeffSpeedRotationCamera>
+</Config>
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || port server : 8080
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || I2c enable : false
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Timout controller : 5
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Length rail in centimeter : 
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Length of one strip : 
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || GPIO pin front mouvement : 17
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || GPIO pin back mouvement : 18
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Coeff speed mouve wagon : 1
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Coeff brake wagon : 1
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Coeff rotation camera : 1
+======================================
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || a user connected
+Fri Feb 28 2020 14:14:55 GMT+0100 (GMT+01:00) || Send initial state of controller, actual state, controller online : false
+Fri Feb 28 2020 14:15:24 GMT+0100 (GMT+01:00) || changeDirection function start
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Load config of file : D:\Documents\GITrepos\TravellingAPP4\config.xml
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Content file config : 
+<?xml version="1.0"?>
+<Config>
+    <portServer>8080</portServer>
+    <i2cEnable>false</i2cEnable>
+    <InitialSpeedLevel>3</InitialSpeedLevel>
+    <!-- timout controller (int) minutes -->
+    <TimeoutController>5</TimeoutController>
+    <!-- Length rail (centimeter) -->
+    <lengthRail></lengthRail>
+    <lengthStrip></lengthStrip>
+    <pinMouveFront>17</pinMouveFront>
+    <pinMouveBack>18</pinMouveBack>
+    <coeffSpeedWagon>1</coeffSpeedWagon>
+    <coeffBrakeWagon>1</coeffBrakeWagon>
+    <coeffSpeedRotationCamera>1</coeffSpeedRotationCamera>
+</Config>
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || port server : 8080
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || I2c enable : false
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Initial speed value : 3
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Timout controller : 5
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Length rail in centimeter : 
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Length of one strip : 
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || GPIO pin front mouvement : 17
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || GPIO pin back mouvement : 18
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Coeff speed mouve wagon : 1
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Coeff brake wagon : 1
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00) || Coeff rotation camera : 1
+======================================
+Fri Feb 28 2020 14:18:56 GMT+0100 (GMT+01:00)
+======================================
+Server started on port 8080...
+Fri Feb 28 2020 14:18:57 GMT+0100 (GMT+01:00) || a user connected
+Fri Feb 28 2020 14:18:57 GMT+0100 (GMT+01:00) || Send initial state of controller, actual state, controller online : false
+Fri Feb 28 2020 14:18:57 GMT+0100 (GMT+01:00) || changeDirection function start
