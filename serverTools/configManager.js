@@ -11,7 +11,7 @@ module.exports = {
 
 // Define class Config
 let Config = class {
-    constructor(portServer, InitialSpeedLevel, TimeoutController, lengthRail, lengthStrip, pinFront, pinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
+    constructor(portServer, InitialSpeedLevel, TimeoutController, lengthRail, lengthStrip, pinFront, pinBack, coeffSpeedWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
       this.portServer = portServer;
       this.InitialSpeedLevel = InitialSpeedLevel;
       this.TimeoutController = TimeoutController;
@@ -19,7 +19,7 @@ let Config = class {
       this.lengthStrip = lengthStrip;
       this.pinFront = pinFront;
       this.pinBack = pinBack;
-      this.coeffMouveWagon = coeffMouveWagon;
+      this.coeffSpeedWagon = coeffSpeedWagon;
       this.coeffBrakeWagon = coeffBrakeWagon;
       this.coeffSpeedRotationCamera = coeffSpeedRotationCamera;
     }
@@ -49,7 +49,7 @@ function LoadConfigExecution(pathConfigFile) {
     var lengthStrip = xmlDoc.Config.lengthStrip.toString();
     var gpioPinFront = xmlDoc.Config.pinMouveFront.toString();
     var gpioPinBack = xmlDoc.Config.pinMouveBack.toString();
-    var coeffMouveWagon = xmlDoc.Config.coeffSpeedWagon.toString();
+    var coeffSpeedWagon = xmlDoc.Config.coeffSpeedWagon.toString();
     var coeffBrakeWagon = xmlDoc.Config.coeffBrakeWagon.toString();
     var coeffSpeedRotationCamera = xmlDoc.Config.coeffSpeedRotationCamera.toString();
 
@@ -61,11 +61,11 @@ function LoadConfigExecution(pathConfigFile) {
     log.writeLine("Length of one strip : " +lengthStrip);
     log.writeLine("GPIO pin front mouvement : " +gpioPinFront);
     log.writeLine("GPIO pin back mouvement : " +gpioPinBack);
-    log.writeLine("Coeff speed mouve wagon : " +coeffMouveWagon);
+    log.writeLine("Coeff speed mouve wagon : " +coeffSpeedWagon);
     log.writeLine("Coeff brake wagon : " +coeffBrakeWagon);
     log.writeLine("Coeff rotation camera : " +coeffSpeedRotationCamera);
 
     // return object config
     return new Config(portServer, initialSpeedLevel,
-        timeoutController, lengthRail, lengthStrip, gpioPinFront, gpioPinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
+        timeoutController, lengthRail, lengthStrip, gpioPinFront, gpioPinBack, coeffSpeedWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
 }

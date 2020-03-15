@@ -3,7 +3,7 @@ var i2cManager = require("./i2cManager.js");
 
 // global value
 var speedWagon = 5;
-var breake = 5;
+var breake = 50;
 var mouveDirection = 0;
 var colorStrip = 0;
 var distanceStart = 0;
@@ -44,8 +44,8 @@ module.exports = {
     brakeWagon : function(config) {
         brakeWagonFunction(config);
     },
-    changeDirection : function () {
-        changeDirectionFunction();
+    changeDirection : function (value, config) {
+        changeDirectionFunction(value, config);
     },
     
     mouveCamera : function (config) {
@@ -62,7 +62,6 @@ module.exports = {
 
 function setspeedWagonValue(value) {
     speedWagon = value;
-    log.writeLine("speedWagon mouve set to : " +speedWagon);
 }
 
 function setBreakeFunction(value) {
@@ -88,27 +87,21 @@ function returnToStartFunction() {
 function mouveWagonFunction(config) {
     log.writeLine("mouveWagon function start");
     log.writeLine("speedWagon for mouve : " +decimalToHexString(speedWagon) +"%");
+    log.writeLine("speedWagon for mouve with coeff: " +decimalToHexString(speedWagon * config.coeffSpeedWagon) +"%");
 
-    i2cManager.sendData(0x01, decimalToHexString(speedWagon * config.coeffMouveWagon));
+    log.writeLine("coeff : " +config.coeffSpeedWagon);
+    var returnedValue = i2cManager.sendData(0x01, decimalToHexString(speedWagon));
 
-    // loop to know the position of the wagon
-    while(true)
-    {
-        log.writeLine("Analyse new possition of wagon ...");
-        analysePosisitonWagon(config);
-    }
-    // Back -> 0
-    log.writeLine("Value gpio1 (back) : " +gpioBack.readSync());
-    if (gpioBack.readSync() === 1)
-    {
-        log.writeLine("Set gpio1 to value 0");
-        gpioBack.writeSync(0);
-    }
+    // analyse new position of wagon
+    //setInterval(analysePosisitonWagon(config), 500);
+    
 }
 
 // Loop to detect new strip on the rail to know the possition of the wagon
 function analysePosisitonWagon (config) {
-    var ret = i2cManager.sendData(0x07);
+    while(true)
+    {
+        var ret = i2cManager.sendData(0x07);
         if (ret != colorStrip) {
             log.writeLine("New strip distance detected");
             log.writeLine("Distance between the start point : " +distanceStart +" cm");
@@ -122,6 +115,7 @@ function analysePosisitonWagon (config) {
                 changeStripIndex();
             }
         }
+    }
 }
 
 function changeStripIndex() {
@@ -132,25 +126,38 @@ function changeStripIndex() {
 }
 
 // To break mouvement of wagon
-function brakeWagonFunction(config) {
+function brakeWagonFunction(config, valueBrake) {
     log.writeLine("mouveWagon function start");
     log.writeLine("speedWagon for mouve : " +decimalToHexString(speedWagon) +"%");
 
-    i2cManager.sendData(0x03, decimalToHexString(breake * config.coeffBrakeWagon));
+    i2cManager.sendData(0x03, decimalToHexString(valueBrake * config.coeffBrakeWagon));
 
     log.writeLine("End of function brakeWagon");
 }
 
 // To change direction for mouvement of wagon
-function changeDirectionFunction() {
+function changeDirectionFunction(indexDirection, config) {
     log.writeLine("changeDirection function start");
 
-    i2cManager.sendData(0x02);
-    if (mouveDirection == 0)
-        mouveDirection = 1;
-    else
-        mouveDirection = 0;
+    log.writeLine("Direction asked : " +indexDirection);
+    log.writeLine("Actual direction : " +mouveDirection);
 
+    if(indexDirection === 0) {
+        mouveDirection = 0;
+        // break
+        brakeWagonFunction(config);
+    }
+    else if(indexDirection != mouveDirection) {
+        brakeWagonFunction(config, 100);
+        i2cManager.sendData(0x02);
+        mouveDirection = indexDirection;
+        brakeWagonFunction(config, 0);
+        mouveWagonFunction(config);
+    }
+    else {
+        mouveWagonFunction(config);
+    }
+    
     log.writeLine("End of function changeDirection");
 }
 
