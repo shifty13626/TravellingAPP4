@@ -11,8 +11,9 @@ module.exports = {
 
 // Define class Config
 let Config = class {
-    constructor(portServer, InitialSpeedLevel, TimeoutController, lengthRail, lengthStrip, pinFront, pinBack, coeffSpeedWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
+    constructor(portServer, i2cEnable, InitialSpeedLevel, TimeoutController, lengthRail, lengthStrip, pinFront, pinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
       this.portServer = portServer;
+      this.i2cEnable = i2cEnable;
       this.InitialSpeedLevel = InitialSpeedLevel;
       this.TimeoutController = TimeoutController;
       this.lengthRail = lengthRail;
@@ -43,6 +44,7 @@ function LoadConfigExecution(pathConfigFile) {
 
     // load tag on variables
     var portServer = xmlDoc.Config.portServer.toString();
+    var i2cEnable = xmlDoc.Config.i2cEnable.toString();
     var initialSpeedLevel = xmlDoc.Config.InitialSpeedLevel.toString();
     var timeoutController = xmlDoc.Config.TimeoutController.toString();
     var lengthRail = xmlDoc.Config.lengthRail.toString();
@@ -55,6 +57,7 @@ function LoadConfigExecution(pathConfigFile) {
 
     // log all value loaded
     log.writeLine("port server : " +portServer);
+    log.writeLine("I2c enable : " +i2cEnable);
     log.writeLine("Initial speed value : " +initialSpeedLevel);
     log.writeLine("Timout controller : " +timeoutController);
     log.writeLine("Length rail in centimeter : " +lengthRail);
@@ -66,6 +69,6 @@ function LoadConfigExecution(pathConfigFile) {
     log.writeLine("Coeff rotation camera : " +coeffSpeedRotationCamera);
 
     // return object config
-    return new Config(portServer, initialSpeedLevel,
-        timeoutController, lengthRail, lengthStrip, gpioPinFront, gpioPinBack, coeffSpeedWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
+    return new Config(portServer, i2cEnable, initialSpeedLevel,
+        timeoutController, lengthRail, lengthStrip, gpioPinFront, gpioPinBack, coeffMouveWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
 }

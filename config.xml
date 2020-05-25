@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Config>
     <portServer>8080</portServer>
+    <i2cEnable>false</i2cEnable>
     <InitialSpeedLevel>3</InitialSpeedLevel>
     <!-- timout controller (int) minutes -->
     <TimeoutController>5</TimeoutController>

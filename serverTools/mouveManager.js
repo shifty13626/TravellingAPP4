@@ -139,10 +139,10 @@ function brakeWagonFunction(config, valueBrake) {
 function changeDirectionFunction(indexDirection, config) {
     log.writeLine("changeDirection function start");
 
-    log.writeLine("Direction asked : " +indexDirection);
-    log.writeLine("Actual direction : " +mouveDirection);
-
-    if(indexDirection === 0) {
+    i2cManager.sendData(0x02);
+    if (mouveDirection == 0)
+        mouveDirection = 1;
+    else
         mouveDirection = 0;
         // break
         brakeWagonFunction(config);

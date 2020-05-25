@@ -9,8 +9,8 @@ module.exports = {
 	CheckI2cDevice : function() {
 		CheckI2cDevice();
 	},
-	sendData : function(action, params) {
-		sendDataI2c(action, params);
+	sendData : function(config, action, params) {
+		sendDataI2c(config, action, params);
 	}
 }
 
@@ -27,12 +27,14 @@ function CheckI2cDevice () {
 }
 
 // Method to send I2C message and receive a return of the Bded card
-function sendDataI2c(action, params)
+function sendDataI2c(config, action, params)
 {
-	log.writeLine("Send i2c message");
+	if (config.i2cEnable)
+	{
+		log.writeLine("Send i2c message");
 
-	wbuf = Buffer.from([action, params]);
-	const rbuf = Buffer.alloc(2);
+		wbuf = Buffer.from([action, params]);
+		const rbuf = Buffer.alloc(2);
 
 	log.writeLine("Message to send : " +wbuf);
 	for (var i=0; i<wbuf.length; i++)
