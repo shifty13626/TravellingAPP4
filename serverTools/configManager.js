@@ -2,25 +2,30 @@ var log = require("./log.js");
 var fs = require('fs');
 var xml2js = require('xml2js');
 
+// link functions of this file
 module.exports = {
     LoadConfig : function(path) {
         return LoadConfigExecution(path);
     }
 }
 
+// Define class Config
 let Config = class {
-    constructor(portServer, InitialSpeedLevel, TimeoutController, pinFront, pinBack, cameraWidth, cameraHeight, cameraQuality) {
+    constructor(portServer, InitialSpeedLevel, TimeoutController, lengthRail, lengthStrip, pinFront, pinBack, coeffSpeedWagon, coeffBrakeWagon, coeffSpeedRotationCamera) {
       this.portServer = portServer;
       this.InitialSpeedLevel = InitialSpeedLevel;
       this.TimeoutController = TimeoutController;
+      this.lengthRail = lengthRail;
+      this.lengthStrip = lengthStrip;
       this.pinFront = pinFront;
       this.pinBack = pinBack;
-      this.cameraWidth = cameraWidth;
-      this.cameraHeight = cameraHeight;
-      this.cameraQuality = cameraQuality;
+      this.coeffSpeedWagon = coeffSpeedWagon;
+      this.coeffBrakeWagon = coeffBrakeWagon;
+      this.coeffSpeedRotationCamera = coeffSpeedRotationCamera;
     }
 };
 
+// function to load all tag on xml file
 function LoadConfigExecution(pathConfigFile) {
     log.writeLine("Load config of file : " +pathConfigFile);
 
@@ -33,27 +38,34 @@ function LoadConfigExecution(pathConfigFile) {
         xmlDoc = tempXmlDoc;
     })
 
+    // display all tags of the config file
     console.log(xmlDoc);
 
+    // load tag on variables
     var portServer = xmlDoc.Config.portServer.toString();
     var initialSpeedLevel = xmlDoc.Config.InitialSpeedLevel.toString();
     var timeoutController = xmlDoc.Config.TimeoutController.toString();
+    var lengthRail = xmlDoc.Config.lengthRail.toString();
+    var lengthStrip = xmlDoc.Config.lengthStrip.toString();
     var gpioPinFront = xmlDoc.Config.pinMouveFront.toString();
     var gpioPinBack = xmlDoc.Config.pinMouveBack.toString();
-    var cameraWidth = xmlDoc.Config.cameraWidth.toString();
-    var cameraHeight = xmlDoc.Config.cameraHeight.toString();
-    var cameraQuality = xmlDoc.Config.cameraQuality.toString();
+    var coeffSpeedWagon = xmlDoc.Config.coeffSpeedWagon.toString();
+    var coeffBrakeWagon = xmlDoc.Config.coeffBrakeWagon.toString();
+    var coeffSpeedRotationCamera = xmlDoc.Config.coeffSpeedRotationCamera.toString();
 
+    // log all value loaded
     log.writeLine("port server : " +portServer);
     log.writeLine("Initial speed value : " +initialSpeedLevel);
     log.writeLine("Timout controller : " +timeoutController);
+    log.writeLine("Length rail in centimeter : " +lengthRail);
+    log.writeLine("Length of one strip : " +lengthStrip);
     log.writeLine("GPIO pin front mouvement : " +gpioPinFront);
     log.writeLine("GPIO pin back mouvement : " +gpioPinBack);
-    log.writeLine("Camera width reseolution : " +cameraWidth);
-    log.writeLine("Camera height reseolution : " +cameraHeight);
-    log.writeLine("Camera quality reseolution : " +cameraQuality);
+    log.writeLine("Coeff speed mouve wagon : " +coeffSpeedWagon);
+    log.writeLine("Coeff brake wagon : " +coeffBrakeWagon);
+    log.writeLine("Coeff rotation camera : " +coeffSpeedRotationCamera);
 
+    // return object config
     return new Config(portServer, initialSpeedLevel,
-        timeoutController, gpioPinFront, gpioPinBack,
-        cameraWidth, cameraHeight, cameraQuality);
+        timeoutController, lengthRail, lengthStrip, gpioPinFront, gpioPinBack, coeffSpeedWagon, coeffBrakeWagon, coeffSpeedRotationCamera);
 }

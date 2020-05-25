@@ -4,9 +4,15 @@
     <InitialSpeedLevel>3</InitialSpeedLevel>
     <!-- timout controller (int) minutes -->
     <TimeoutController>5</TimeoutController>
+    <!-- Length rail (centimeter) -->
+    <lengthRail></lengthRail>
+    <lengthStrip></lengthStrip>
     <pinMouveFront>17</pinMouveFront>
     <pinMouveBack>18</pinMouveBack>
     <cameraWidth>320</cameraWidth>
     <cameraHeight>240</cameraHeight>
     <cameraQuality>10</cameraQuality>
+    <coeffSpeedWagon>1</coeffSpeedWagon>
+    <coeffBrakeWagon>1</coeffBrakeWagon>
+    <coeffSpeedRotationCamera>1</coeffSpeedRotationCamera>
 </Config>

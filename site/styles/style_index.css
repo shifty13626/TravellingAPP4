@@ -1,23 +1,26 @@
-body
+.control_wrapper
 {
     display: flex;
     flex-direction: column;
-    padding: 6vh;
+    height: 90%;
+    width: 90%;
+    box-sizing: content-box;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.travelling_controls
+.trav_controls
 {
     flex: 3;
 
     display: flex;
     flex-direction: column;
-
-    margin-bottom: 3vh;
 }
 
-.trav_simulation
+.trav_supervision
 {
-    flex: 1;
+    flex: 1.25;
 	display: flex;
 }
 
@@ -31,8 +34,13 @@ body
     padding: 2vh;
 }
 
-.travelling_controls, .trav_simulation
+.trav_controls, .trav_supervision
 {
     border-radius: 5vh;
     border: solid grey 0.3vh;
+}
+
+.trav_supervision
+{
+    margin-bottom: 3vh;
 }

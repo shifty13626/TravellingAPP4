@@ -1,4 +1,8 @@
-- fichier de conf
-- timout controller
-- interface admin pour quitter tout les controllers
-- voir pour flux video avec petite camera
+- ajouter button arrete urgence sur interface
+- ajouter image camera sur interface
+
+
+- addresse Mbed = 0x08
+- address a definir dans la raspberry : 0x04
+
+- commande pour vérifier le périphérique i12c : i2cdetect -y 1
