@@ -1,27 +1,70 @@
-<!doctype html>
 <html>
-  <head>
-        <link rel = "stylesheet" type = "text/css" href = "stylePage.css" />
-    <title>Travelling Project</title>
-</head>
-<body>
-    <h1>Travelling Project APP4</h1>
-    <h2>Application developped by studen of Polytech Paris Sud</h2>
+    <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=0'/>
+        <link rel="stylesheet" type="text/css" href="styles/style_page.css">
+        <link rel="stylesheet" type="text/css" href="styles/style_trav_control.css">
+        <link rel="stylesheet" type="text/css" href="styles/style_trav_simulation.css">
+        <link rel="stylesheet" type="text/css" href="styles/style_custom_range.css">
+        <link rel="stylesheet" type="text/css" href="styles/style_index.css">
+    </head>
+    <body>
 
-</br>
-    <label>Speed : </label><label id="speedLabel"></label>
-    <p>Direction of mouvement :</p>
-    <label id="arrowBack"><--</label>
-    <label id="stopMouve">STOP</label>
-    <label id="arrowFront">--></label>
-</br>
-</br>
-    <label id="labelControllerActif"></label></br>
-    <button id="adminBtn">Go to controller</button>
+		<div class="travelling_controls">
+            <div class="travelling_control" id="move_controls">
+                <span class="direction_control" id="move_direction_control">
+                    <button class="btn_control" id="btn_move_left" style="background-image: url(img/icon_move_left.svg)"></button>
+                    <button class="btn_control" id="btn_move_right" style="background-image: url(img/icon_move_left.svg); transform: scaleX(-1);"></button>
+                </span>
+                <span class="speed_control" id="move_speed_control">
+                    <input class="rng_speed" id="rng_move_speed" type="range" min=0 max=100 value=50>
+                    <input class="nud_speed" id="nud_move_speed" type="number" min=0 max=100 value=50>
+                </span>
+            </div>
+            <div class="travelling_control" id="rotate_controls">
+                <span class="direction_control" id="rotate_direction_control">
+                    <button class="btn_control" id="btn_rotate_left" style="background-image: url(img/icon_rotate_right.svg); transform: scaleX(-1);"></button>
+                    <button class="btn_control" id="btn_rotate_right" style="background-image: url(img/icon_rotate_right.svg);"></button>
+                </span>
+                <span class="speed_control" id="move_speed_control">
+                    <input class="rng_speed" id="rng_rotate_speed" type="range" min=0 max=100 value=50>
+                    <input class="nud_speed" id="nud_rotate_speed" type="number" min=0 max=100 value=50>
+                </span>
+            </div>
+        </div>
 
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <script src="/scripts/supervision/supervisionFunctions.js"></script>
-    <script src="/scripts/supervision/listenerSupervision.js"></script>
-</body>
+		<div class="trav_simulation">
+			<div class="trav_screen">
+				<div class="trav_rail rangewrapper horizontal">
+					<input class="customrange" type="range" min="0" max="100" value="50" disabled>
+					<div class="sliderthumb" style="background-image: url(img/camera_icon.ico);"></div>
+				</div>
+			</div>
+			<div class="trav_infos">
+				<span class="trav_info">
+					<label>Direction</label><span class="move_direction_label">STOP</span>
+				</span>
+				<span class="trav_info">
+					<label>Speed</label><span class="move_speed_label">0</span>
+				</span>
+				<span class="trav_info">
+					<label>Distance</label><span class="move_distance_label">###</span>
+				</span>
+            </div>
+            <div class="trav_infos">
+                    <span class="trav_info">
+                        <label>Rotation direction</label><span class="rotate_direction_label">STOP</span>
+                    </span>
+                    <span class="trav_info">
+                        <label>Rotation speed</label><span class="rotate_speed_label">0</span>
+                    </span>
+                    <span class="trav_info">
+                        <label>Angle</label><span class="rotate_distance_label">###</span>
+                    </span>
+            </div>
+        </div>
+    
+    </body>
 </html>
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="scripts/script_control.js"></script>
+<script type="text/javascript" src="scripts/script_trav_simulation.js"></script>
