@@ -130,7 +130,16 @@ function brakeWagonFunction(config, valueBrake) {
     log.writeLine("mouveWagon function start");
     log.writeLine("speedWagon for mouve : " +decimalToHexString(speedWagon) +"%");
 
-    i2cManager.sendData(0x03, decimalToHexString(valueBrake * config.coeffBrakeWagon));
+    cpt = 0;
+
+    // low brake
+    const interval = setInterval( function () {
+        cpt += 10;
+        if (cpt >= valueBrake)
+            clearInterval( interval);
+        i2cManager.sendData(0x03, decimalToHexString(valueBrake * config.coeffBrakeWagon));
+
+    }, 500);
 
     log.writeLine("End of function brakeWagon");
 }
@@ -145,13 +154,13 @@ function changeDirectionFunction(indexDirection, config) {
     if(indexDirection === 0) {
         mouveDirection = 0;
         // break
-        brakeWagonFunction(config);
+        brakeWagonFunction(config, 100);
     }
     else if(indexDirection != mouveDirection) {
         brakeWagonFunction(config, 100);
         i2cManager.sendData(0x02);
         mouveDirection = indexDirection;
-        brakeWagonFunction(config, 0);
+        //brakeWagonFunction(config, 0);
         mouveWagonFunction(config);
     }
     else {
