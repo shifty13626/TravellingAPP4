@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Projet_travelling_detecteur_V3.PcbDoc   13/02/2020  12:11:01
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Projet_travelling_detecteur_V3.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      24mil (0.61mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T2      28mil (0.711mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T3      34mil (0.851mm)                                           Round             14        PTH        0.00inch (0.00mm)
+T4      35mil (0.899mm)                                           Round             16        PTH        0.00inch (0.00mm)
+T5      43mil (1.1mm)                                             Round             8         PTH        0.00inch (0.00mm)
+T6      236mil (5.999mm)                                          Round             2         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              48
+
+Total Processing Time (hh:mm:ss) : 00:00:00

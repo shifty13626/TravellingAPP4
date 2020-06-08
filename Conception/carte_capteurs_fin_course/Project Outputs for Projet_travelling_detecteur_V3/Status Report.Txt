@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Projet_travelling_detecteur_V3.PrjPCB]
+   Generated File[Projet_travelling_detecteur_V3.TXT]
+   Generated File[Projet_travelling_detecteur_V3.LDP]
+   Generated File[Projet_travelling_detecteur_V3.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:11:01 On 13/02/2020
